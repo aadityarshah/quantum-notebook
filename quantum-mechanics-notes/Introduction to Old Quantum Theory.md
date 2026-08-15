@@ -4,8 +4,10 @@
 
 A blackbody is an ideal object that absorbs all electromagnetic radiation falling on it and emits radiation on heating. 
 
-Experimentally, the spectrum looks like this
-<img src="../assets/blackbody-radiation-graph.jpg" width="390">
+Experimentally, the spectrum looks like this  
+
+<img src="../assets/blackbody-radiation-graph.jpg" width="390">  
+
 The findings can be summarized by 
 1. **Wien's Displacement Law** 
 	$\lambda_{max} T = 2.898 \times 10^{-3} m.K = b$
