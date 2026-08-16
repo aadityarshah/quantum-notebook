@@ -66,3 +66,53 @@ Einstein proposed that quanta (now called photon) of frequency ν is absorbed by
 $$K_{max} = h\nu - \phi$$
 where $\phi$ is the work function such that $\phi = h\nu_t$ where $\nu_t$ is the threshold frequency.
 
+### 3. Bohr's Model and Bohr-Sommerfeld Model of Atom
+
+#### Failure of earlier models of atoms 
+
+The Rutherford nuclear model described electrons moving around the nucleus, but the problem faced was that any accelerating electron would emit electromagnetic radiation and thus lose energy resulting in them spiraling around the nucleus and eventually collapse into it very quickly. 
+Also, the atomic spectra of Hydrogen produced specific discrete lines.
+
+#### Bohr's semi-classical model of hydrogen atom
+
+These resulted in Bohr giving the ***postulate*** *Electrons in stationary orbits do not emit electromagnetic radiation* (though the reason behind the same was not provided). This accounted for the stability of atom and explained atomic spectra. 
+
+According to Bohr's model, electrons move in **circular orbits**, such that $$L = mvr = \frac{nh}{2\pi}$$
+where $m$ is electron mass, $v$ is velocity of electron, $r$ is orbital radius, $n$ is principal quantum number (the stationary orbits) starting from $n = 1$.  Also, while electron is in one of the stationary orbits, it emits no radiation (according to postulate) i.e. $$\frac{dE}{dt} = 0$$Thus, while the electron remains in a stationary orbit, its energy does not continuously decrease. Combining the angular-momentum quantization condition with the classical Coulomb force and energy expressions gives the allowed energy levels $$E_n = -\frac{13.6}{n^2} eV$$
+
+He added that atom emits a photon when an electron moves from a higher energy state to lower energy state such that $\Delta E = hf$ where $f$ is frequency of photon. If it absorbs a photon, electron excites from lower energy state to higher energy state. 
+
+Further derivations by Bohr used classical mechanics like Coulomb force to determine the orbit and thus this model is seen as a semi-classical model.
+##### Failure of Bohr Model
+
+This model worked for hydrogen atom and hydrogen-like ions (one electron) called hydrogenic species but failed for a general atom.
+High-resolution spectroscopy revealed that some spectral lines consisted of closely spaced components, known as *fine structure*. Bohr's model could not account for this splitting because the energy depended only on the principal quantum number n.
+
+#### Bohr-Sommerfeld model of atom
+
+ Sommerfeld extended Bohr's model by allowing elliptical as well as circular stationary orbits. To quantize the different degrees of freedom of these orbits, he introduced additional quantum numbers that is now we had introduced the radial quantum number $n_r$ and azimuthal/angular quantum number $n_\phi$ and that principal quantum number $n = n_r  + n_\phi$ in Sommerfeld's old quantum theory notation
+
+Sommerfeld proposed that for a periodic motion
+$$\oint pdq = n_i h$$
+where $n_i$ is an integer, $q$ is coordinate describing position and $p$ is momentum corresponding to the coordinate.  This is called the *quantization of action*. For circular orbits, this gives $L = n\hbar$ where $\hbar= h/2\pi$. 
+This was introduced since in elliptical orbit, radial motion describes electrons movement towards and away from nucleus whereas angular describes around nucleus thus giving rise to two quantum numbers. 
+For radial action,
+$$\oint p_r dr = n_r h$$
+and for angular action, $$\oint p_\phi d\phi = n_\phi h \implies L = n_\phi \hbar$$
+Sommerfeld said each periodic motion has a quantized action.
+
+He also added relativistic correction based on the fact that in an elliptical orbit, if $r \downarrow$, then $v \uparrow$ and thus electron can move fast enough to that special relativity produces a small correction to its energy which explained a major part of the *fine structure*. 
+
+### 4. Double Slit Experiment
+
+Young's double experiment was the time when the concept that light is a wave was accepted. The conditions for the experiment are as follows:-
+1. Very closely spaced slits 
+2. Coherent sources i.e. same frequency and constant phase difference
+3. A monochromatic source to clarify the effect
+
+If $E_1$ and $E_2$ are oscillating electric-fields, such that 
+$$E_1 = A_1 \cos(\omega t)$$
+$$E_2 = A_2 \cos(\omega t + \phi)$$ where $A_1$ and $A_2$ are amplitudes of electric fields, $\omega$ is the angular frequency and $\phi$ is the constant phase difference between the two.
+
+Due to path difference at a point P on screen resulting in phase difference, if the waves arrive in phase at the point, constructive interference occurs ($\Delta \phi = 2m\pi$) and if in opposite phase ($\Delta \phi = (2m+1)\pi$, destructive interference occurs. 
+The total phase difference  is given by $$\Delta \phi = \phi + \frac{2\pi}{\lambda}(r_2-r_1)$$where $r_1$ and $r_2$ are path lengths.
