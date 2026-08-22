@@ -116,3 +116,4 @@ $$E_2 = A_2 \cos(\omega t + \phi)$$ where $A_1$ and $A_2$ are amplitudes of elec
 
 Due to path difference at a point P on screen resulting in phase difference, if the waves arrive in phase at the point, constructive interference occurs ($\Delta \phi = 2m\pi$) and if in opposite phase ($\Delta \phi = (2m+1)\pi$, destructive interference occurs. 
 The total phase difference  is given by $$\Delta \phi = \phi + \frac{2\pi}{\lambda}(r_2-r_1)$$where $r_1$ and $r_2$ are path lengths.
+
