@@ -1,3 +1,4 @@
+# Introduction to Old Quantum Theory
 ## Failures of Classical Theory
 
 ### 1. Blackbody Radiation
@@ -117,3 +118,34 @@ $$E_2 = A_2 \cos(\omega t + \phi)$$ where $A_1$ and $A_2$ are amplitudes of elec
 Due to path difference at a point P on screen resulting in phase difference, if the waves arrive in phase at the point, constructive interference occurs ($\Delta \phi = 2m\pi$) and if in opposite phase ($\Delta \phi = (2m+1)\pi$, destructive interference occurs. 
 The total phase difference  is given by $$\Delta \phi = \phi + \frac{2\pi}{\lambda}(r_2-r_1)$$where $r_1$ and $r_2$ are path lengths.
 
+### 5. Stern-Gerlach Experiment
+
+Stern and Gerlach designed an experiment. A silver foil in an oven to vaporize its atoms. The silver atoms were collected into a beam and passed through an in-homogeneous magnetic field. The silver atom beam was observed to split into two distinct beams.
+
+Classically, the force resulting from a magnetic moment in a magnetic field, given by $$ \mathbf{F} \sim \nabla(\boldsymbol{\mu}\cdot\mathbf{B})$$ could make different atoms experience different forces due to arbitrary orientations of their magnetic moments, leading to a continuous distribution on the detector.
+
+This was found to be inconsistent with the experiment. Thus, the conclusion that followed was that the component of the magnetic moment along the measurement axis can take discrete values. The term *spin* is used to refer to the *intrinsic angular momentum* rather than the actual classical meaning of spin. 
+### 6. Compton Effect
+
+<img src="../assets/compton-effect.webp" width="390">  
+
+Suppose monochromatic X-rays with wavelength $\lambda$ are incident on a sample of graphite. They later emerge as scattered X-rays with wavelength $\lambda'$. A detector is used to measure the intensity of radiation scattered in any direction $\theta$ with respect to the direction of the incident X-ray beam. For a given scattering angle $\theta$, we measure the intensity and the wavelength $\lambda'$ of scattered beam.  For all scattering angles except for $\theta = 0^\circ$, two intensity peaks are measured, one at $\lambda$ which is the incident wavelength and other at $\lambda'$. The peaks are separated by $\Delta \lambda$ which depends on $\theta$ of the outgoing beam. The shifted peak is due to electrons that can recoil whereas unshifted peak at $\lambda$ is due to scattering from bound electrons or whole atoms. This separation is said to be the **Compton Shift**.  
+
+Compton effect is the term used for this change in wavelength of X-rays after being scattered off some materials such as graphite than that of the incident wavelength.  Classical electromagnetic theory predicts that scattering from a free electron should not produce the observed angle-dependent change in wavelength.
+
+To explain this, Compton used Einstein's idea of light as a particle and this strengthened the concept of photon. He treated both electrons and photons as relativistic particles and that the collision obeys the conversation of linear momentum and the conservation of total relativistic energy. 
+
+$$\vec{p_f} \cdot \vec{\tilde{p_f}} = p_f \tilde{p}_f \cos(\theta)$$ $$E_f + m_0c^2 = \tilde{E_f} + E$$
+$$\vec{p_f} = \vec{\tilde{p_f}} + \vec{p}$$
+where $\vec{p_f}$ denotes the momentum of photon before the collision, $\vec{\tilde{p_f}}$ denotes the momentum of photon immediately after the collision, $\theta$ the scattering angle, $E_f$ the energy of photon before collision, $\tilde{E_f}$ the energy of outgoing photon, $m_0$ the rest mass of electron and $E$ the energy of electron immediately after the collision.
+Note that any particle in nature obeys relativistic energy equation according to special theory of relativity
+$$E^2 = p^2c^2 + m_0^2c^4$$
+On applying this relation to a photon which is massless, we obtain
+$$p_f = \frac{E_f}{c}$$
+Thus, we have $$p_f = \frac{h}{\lambda}$$
+
+Now, with all this, on solving, we obtain $$\lambda' - \lambda = \frac{h}{m_0c} (1-\cos\theta)$$$h/m_0c = 2.43 pm$ and thus, $\Delta \lambda = \lambda_c(1-\cos \theta)$.
+
+This was found to be highly consistent with the experimental results. If the electron is tightly bound to the atom, the recoil can effectively involve the atom as a whole. In the extreme case, the relevant recoil mass is approximately the mass of the atom rather than the electron, making the wavelength shift much smaller.
+
+The Compton effect provided strong experimental evidence that photons carry momentum $p = h/\lambda$ and therefore strengthened the particle description of light. 
