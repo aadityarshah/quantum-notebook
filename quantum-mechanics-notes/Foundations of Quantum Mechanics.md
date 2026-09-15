@@ -243,28 +243,19 @@ $$
 Equivalently, in quantum mechanics,
 
 $$
-\hat{H}(\hat{x},\hat{p})
-=
-\frac{\hat{p}^2}{2m}+V(\hat{x}).
+\hat{H}(\hat{x},\hat{p}) = \frac{\hat{p}^2}{2m}+V(\hat{x})
 $$
 
 After canonical substitution of quantum operators, we have
 
 $$
-\hat{H}
-=
--\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}
-+V(x).
+\hat{H} =-\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2}+ V(x).
 $$
 
 The time-dependent Schrödinger equation is
 
 $$
-\boxed{
-i\hbar\frac{\partial\Psi(x,t)}{\partial t}
-=
-\hat{H}\Psi(x,t)
-}
+\boxed{i\hbar\frac{\partial\Psi(x,t)}{\partial t} =\hat{H}\Psi(x,t)}
 $$
 
 For a time-independent potential, we can use a separable solution
@@ -276,9 +267,7 @@ $$
 Substitution into the time-dependent Schrödinger equation gives
 
 $$
-i\hbar\frac{1}{\phi}\frac{d\phi}{dt}
-=
-\frac{1}{\psi}\hat H\psi.
+i\hbar\frac{1}{\phi}\frac{d\phi}{dt}=\frac{1}{\psi}\hat H\psi
 $$
 
 The left-hand side depends only on $t$, while the right-hand side
@@ -286,11 +275,7 @@ depends only on $x$. Therefore, both must equal the same constant,
 which we denote by $E$:
 
 $$
-i\hbar\frac{1}{\phi}\frac{d\phi}{dt}
-=
-\frac{1}{\psi}\hat H\psi
-=
-E.
+i\hbar\frac{1}{\phi}\frac{d\phi}{dt}=\frac{1}{\psi}\hat H\psi=E
 $$
 
 Thus,
@@ -302,21 +287,19 @@ $$
 and
 
 $$
-\frac{d\phi}{dt}=-\frac{iE}{\hbar}\phi,
+\frac{d\phi}{dt}=-\frac{iE}{\hbar}\phi
 $$
 
 giving
 
 $$
-\phi(t)=e^{-iEt/\hbar}.
+\phi(t)=e^{-iEt/\hbar}
 $$
 
 Thus, the complete stationary-state solution is
 
 $$
-\boxed{
-\Psi(x,t)=\psi(x)e^{-iEt/\hbar}.
-}
+\boxed{\Psi(x,t)=\psi(x)e^{-iEt/\hbar}}
 $$
 
 The separation constant $E$ is identified as the energy because $\hat H$ is the Hamiltonian (energy operator), and for the corresponding normalized state,
@@ -331,7 +314,7 @@ $$
 \sigma_H^2=0.
 $$
 
-Thus, every separable solution has the property that *every measurement of the total energy is certain to return the value $E$*.
+Thus, every separable solution has the property that *every measurement of the total energy is certain to return the value* $E$.
 
 ### General Solution
 
@@ -836,9 +819,7 @@ $$
 Now, the time-dependent Schrödinger equation is
 
 $$
-i\hbar\frac{\partial\Psi(x,t)}{\partial t}
-=
-\hat{H}\Psi(x,t)
+i\hbar\frac{\partial\Psi(x,t)}{\partial t}=\hat{H}\Psi(x,t)
 $$
 
 For the stationary states, we use the time-independent Schrödinger equation
@@ -1009,7 +990,7 @@ $$
 [\hat{x}, \hat{p}] = i\hbar
 $$
 
-An anticommutator is denoted by $\{A, B\}$ and defined as $\{A, B\} := AB + BA$. 
+An anticommutator is denoted by $\\{A, B \\}$ and defined as $\\{A, B \\} := AB + BA$. 
 
 Now, 
 
@@ -1027,7 +1008,8 @@ Therefore,
 
 $$
 \begin{aligned}
-[\hat{a}, \hat{a}^{\dagger}] &= \hat{a}\hat{a}^{\dagger} - \hat{a}^{\dagger} \hat{a}  \\
+\left[\hat a,\hat a^\dagger\right]
+&= \hat a\hat a^\dagger-\hat a^\dagger\hat a \\
 &= \frac{1}{2 \hbar m \omega} (m^2 \omega^2 \hat{x}^2 + \hat{p}^2 - i m \omega \hat{x} \hat{p} + i m \omega \hat{p} \hat{x}) - \frac{1}{2 \hbar m \omega}(m^2 \omega^2 \hat{x}^2 + \hat{p}^2 + i m \omega \hat{x} \hat{p} - i m \omega \hat{p} \hat{x}) \\
 &= \frac{1}{2 \hbar m \omega} (-2 i m \omega \hat{x} \hat{p} + 2 i m \omega \hat{p} \hat{x}) \\
 &= \frac{i}{\hbar} (\hat{p}\hat{x} - \hat{x}\hat{p}) \\
@@ -1098,7 +1080,7 @@ Ground state is defined to be the stationary state $\psi_0$ such that no further
 
 This comes from Hamiltonian operator and the fact that the quantity $\int_{-\infty}^{\infty} {\psi^{\ast} (\hat{a}^{\dagger} \hat{a}) \psi}$ will be non-negative (because $\int_{-\infty}^{\infty} {|a \psi|^2 dx} \geq 0$) and thus expectation value $\langle \hat{a}^{\dagger}\hat{a} \rangle \geq 0$.
 
-Since $\psi_0$ is an energy eigenstate, we can conclude $\langle \hat{H} \rangle \geq \hbar \omega / 2$, and $E = \langle \hat{H} \rangle \geq 1/2 \hbar \omega$. Thus, the ground state reaches the lower bound $\langle N \rangle = 0$. Now, $\langle N \rangle = \int |a \psi_0|^2 dx$ and thus, we have
+Since $\psi_0$ is an energy eigenstate, we can conclude $\langle \hat{H} \rangle \geq \hbar \omega / 2$, and $E = \langle \hat{H} \rangle \geq \hbar \omega / 2$. Thus, the ground state reaches the lower bound $\langle N \rangle = 0$. Now, $\langle N \rangle = \int |a \psi_0|^2 dx$ and thus, we have
 
 $$
 a \psi_0 = 0
