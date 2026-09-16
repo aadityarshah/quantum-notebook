@@ -3,7 +3,12 @@
 
 Classical computation uses bits which can take values either 0 or 1.  With $n$-bits, one can have $2^n$ possible states. But the system has one actual state at a time. But in Quantum computing, *qubits* are used. 
 
-A qubit is the basic unit of quantum information, analogous to the classical bit. Two possible states for a qubit are $\ket{0}$ and $\ket{1}$. A qubit can also form linear combinations of states known as *superposition* such that the state of the qubit is described by $$\ket{\psi} = \alpha\ket{0}+\beta{\ket{1}}$$
+A qubit is the basic unit of quantum information, analogous to the classical bit. Two possible states for a qubit are $\ket{0}$ and $\ket{1}$. A qubit can also form linear combinations of states known as *superposition* such that the state of the qubit is described by 
+
+$$
+\ket{\psi} = \alpha\ket{0}+\beta{\ket{1}}
+$$
+
 where $\alpha$ and $\beta$ are complex numbers, and the special states $\ket{0}$ and $\ket{1}$ are known as *computational basis states* and form an *orthonormal basis* for a *two-dimensional complex vector space*. 
 
 When a qubit is "measured", state $\ket{0}$ is obtained with probability $|{\alpha}|^2$  and state $\ket{1}$ is obtained with probability $|\beta|^2$. By normalization, $|\alpha|^2 + |\beta|^2 = 1$.  Hence, the corresponding classical result is either $0$ or $1$. 
@@ -23,7 +28,15 @@ Using qubits in quantum computing leads to several challenges to make quantum co
 The difficult part is determining values $\alpha$ and $\beta$ and use them to extract information. A measurement gives just one outcome so a single measurement is insufficient to determine the probabilities $|\alpha|^2$ and $|\beta|^2$.
 
 Thus, the experiment is performed a very large  $N$ times, and then we have,
-$$P(\ket{0}) = |\alpha|^2 = \frac{N_0}{N}$$$$P(\ket{1}=|\beta|^2 = \frac{N_1}{N}$$
+
+$$
+P(0) = |\alpha|^2 = \frac{N_0}{N}
+$$
+
+$$
+P(1)=|\beta|^2 = \frac{N_1}{N}
+$$
+
 where $N_0$ represents number of times the classical result $0$ was measured and $N_1$ when classical result $1$ was measured. 
 
 This is not practically feasible. o 
