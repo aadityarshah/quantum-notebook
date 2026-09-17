@@ -45,7 +45,7 @@ $$
 Thus,
 
 $$
-\mathcal{H} = \operatorname{span}\{\ket{0}, \ket{1} \}
+\mathcal{H} = span\{\ket{0}, \ket{1} \}
 $$
 
 Any quantum state $\ket{\psi} \in \mathcal{H}$ is thus given by
@@ -178,7 +178,7 @@ $$
 This can be equivalently represented by a point on the sphere of unit radius represented in vector form $\vec{n}$ with respect to origin which is given by
 
 $$
-\vec{n} = \sin \theta \cos \phi \, \vec{e_x} + \sin \theta \sin \phi \, \vec{e_y} + \cos \theta \, \vec{e_z}
+\vec{n} = \sin \theta \cos \phi \vec{e_x} + \sin \theta \sin \phi \vec{e_y} + \cos \theta \vec{e_z}
 $$
 
 where $\vec{e_x}, \vec{e_y}, \vec{e_z}$ are the vectors representing $x$, $y$ and $z$ axes respectively whereas $\theta$ is the angle from the $z$-axis, called polar angle and $\phi$ is the rotation in the $xy$-plane from the $x$-axis, called azimuthal angle.
