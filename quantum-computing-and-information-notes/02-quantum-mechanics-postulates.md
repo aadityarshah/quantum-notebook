@@ -38,10 +38,10 @@ If $\hat{A}$ and $\hat{B}$ are hermitian operators corresponding to classical dy
 
 
 $$
-[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A} = i \hbar \{a, b \},
+[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A} = i \hbar \{a, b \}
 $$
 
-where $\{a, b \}$ is the classical Poisson bracket of $a$ and $b$ and $\hbar = h/2\pi$, where $h$ is the Planck's constant.
+where $\{a, b \}$ is the classical Poisson bracket of $a$ and $b$, representing an operator and $\hbar = h/2\pi$, where $h$ is the Planck's constant.
 
 :::
 
