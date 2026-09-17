@@ -1,21 +1,5 @@
 # The Birth of Quantum Mechanics
 
-- [Double Slit Experiment](#double-slit-experiment)
-  - [With Single Particles](#with-single-particles)
-- [De Broglie's Hypothesis of Matter Waves](#de-broglies-hypothesis-of-matter-waves)
-  - [Explaining Bohr's Quantization Condition](#explaining-bohrs-quantization-condition)
-  - [Davisson-Germer Experiment](#davisson-germer-experiment)
-- [Wavefunction](#wavefunction)
-  - [Schrodinger's Construction of Wave Mechanics](#schrodingers-construction-of-wave-mechanics)
-    - [First Communication](#first-communication)
-    - [Second Communication](#second-communication)
-  - [Extension of Wave Mechanics](#extension-of-wave-mechanics)
-    - [Third Communication - Perturbation Theory](#third-communication---perturbation-theory)
-    - [Fourth Communication - Time-Dependent Wave Mechanics](#fourth-communication---time-dependent-wave-mechanics)
-  - [Physical Interpretation of the Wavefunction](#physical-interpretation-of-the-wavefunction)
-    - [Schrödinger's Interpretation](#schrödingers-interpretation)
-    - [Born's Statistical Interpretation](#borns-statistical-interpretation)
-
 ## Double Slit Experiment
 
 Young's double experiment was the time when the concept that light is a wave was accepted. The conditions for the experiment are as follows:-
@@ -98,7 +82,7 @@ $$
 
 However, the periodic phenomenon associated with the particle is also affected by relativistic time transformation.
 
-De Broglie introduced the requirement of *phase harmony*, namely that the periodic phenomenon associated with the moving particle and its associated phase wave remain synchronized in phase. This requirement determines the phase velocity of the wave.
+De Broglie introduced the requirement of _phase harmony_, namely that the periodic phenomenon associated with the moving particle and its associated phase wave remain synchronized in phase. This requirement determines the phase velocity of the wave.
 
 The phase velocity is determined to be
 
