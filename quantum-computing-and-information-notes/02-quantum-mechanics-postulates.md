@@ -36,7 +36,6 @@ The matrices corresponding to hermitian operators have real eigenvalues.
 
 If $\hat{A}$ and $\hat{B}$ are hermitian operators corresponding to classical dynamical variables a and b then the commutator of $\hat{A}$ and $\hat{B}$ is given by_
 
-
 $$
 [\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A} = i \hbar \{a, b \}
 $$
