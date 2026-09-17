@@ -98,7 +98,7 @@ $$
 
 However, the periodic phenomenon associated with the particle is also affected by relativistic time transformation.
 
-De Broglie introduced the requirement of *phase harmony*, namely that the periodic phenomenon associated with the moving particle and its associated phase wave remain synchronized in phase. This requirement determines the phase velocity of the wave.
+De Broglie introduced the requirement of _phase harmony_, namely that the periodic phenomenon associated with the moving particle and its associated phase wave remain synchronized in phase. This requirement determines the phase velocity of the wave.
 
 The phase velocity is determined to be
 

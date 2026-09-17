@@ -20,12 +20,12 @@ A transition between the two levels can be induced by interacting with the atom 
 
 ### General Qubit State
 
-Using Dirac notation, a quantum state is represented by a ket $\ket{\psi}$. 
+Using Dirac notation, a quantum state is represented by a ket $\ket{\psi}$.
 
 For quantum computing, we consider a two-dimensional Hilbert space $\mathcal{H}$ and choose the orthonormal basis $\{ \ket{0}, \ket{1} \}$ which is referred to as the computational basis, and represent them by coordinates
 
 $$
-\ket{0} = 
+\ket{0} =
 \begin{pmatrix}
 1 \\
 0
@@ -35,7 +35,7 @@ $$
 and
 
 $$
-\ket{1} = 
+\ket{1} =
 \begin{pmatrix}
 0 \\
 1
@@ -54,9 +54,9 @@ $$
 \ket{\psi} = \alpha \ket{0} + \beta \ket{1}
 $$
 
-where $\alpha, \beta \in \mathbb{C}$ are called *probability amplitudes*. 
+where $\alpha, \beta \in \mathbb{C}$ are called _probability amplitudes_.
 
-The state $\ket{\psi}$ is referred to a *superposition* of the two basis states. 
+The state $\ket{\psi}$ is referred to a _superposition_ of the two basis states.
 
 For a normalized state, using the orthonormality of the computational basis, we have
 
@@ -185,15 +185,15 @@ where $\vec{e_x}, \vec{e_y}, \vec{e_z}$ are the vectors representing $x$, $y$ an
 
 Hence, every pure qubit state has an equivalent representation by a point on a sphere of unit radius. We call this sphere the Bloch sphere.
 
-<img src="../assets/bloch-sphere.png" width="200">
+<img src="../assets/bloch-sphere.png" alt="Bloch sphere" width="200">
 
 Also, note that for $\theta = 0$, we have
 
 $$
-\ket{\psi} = \ket{0, \phi} = \ket{0} 
+\ket{\psi} = \ket{0, \phi} = \ket{0}
 $$
 
-and 
+and
 
 $$
 \vec{n_0} = \vec{e_z}
@@ -202,7 +202,7 @@ $$
 and similarly for $\theta = \pi$, we have
 
 $$
-\ket{\psi} = \ket{\pi, \phi} = \ket{1} 
+\ket{\psi} = \ket{\pi, \phi} = \ket{1}
 $$
 
 and

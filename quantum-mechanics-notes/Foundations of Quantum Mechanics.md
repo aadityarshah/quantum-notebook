@@ -1,5 +1,5 @@
-# Foundations of Quantum Mechanics 
- 
+# Foundations of Quantum Mechanics
+
 - [The Schrödinger Equation](#the-schrödinger-equation)
   - [Normalization](#normalization)
   - [Statement of Probability Conservation](#statement-of-probability-conservation)
@@ -30,7 +30,7 @@
     - [Property of Orthogonality](#property-of-orthogonality)
     - [Expectation Value of Energy](#expectation-value-of-energy)
 
-## The Schrödinger Equation 
+## The Schrödinger Equation
 
 With Schrödinger's equation and Born's interpretation as the starting framework of non-relativistic quantum mechanics, we begin with the simplest quantum system - a single non relativistic particle moving in one spatial dimension.  
 The state of the particle is described by a wavefunction
@@ -45,13 +45,13 @@ $$
 i\hbar \frac{\partial \Psi(x, t)}{\partial t} = - \frac{\hbar^2}{2m} \frac{\partial^2 \Psi(x, t)}{\partial x^2} + V(x, t)\Psi(x, t)
 $$
 
-where $m$ is the mass of the particle, $V(x, t)$ is its potential energy and $\Psi(x, t)$ is its wavefunction. 
+where $m$ is the mass of the particle, $V(x, t)$ is its potential energy and $\Psi(x, t)$ is its wavefunction.
 
 ### Normalization
 
-From Born's statistical interpretation of Wavefunction, we treat the quantity $|\Psi(x,t)|^2$ as probability density for finding the particle at position $x$ at time $t$. 
+From Born's statistical interpretation of Wavefunction, we treat the quantity $|\Psi(x,t)|^2$ as probability density for finding the particle at position $x$ at time $t$.
 
-Define the probability density 
+Define the probability density
 
 $$
 p(x, t)=|\Psi(x, t)|^2
@@ -60,7 +60,7 @@ $$
 Thus, the probability of finding the particle between positions $a$ and $b$ is given by
 
 $$
-P(a \leq x \leq b) = \int_a^b p(x, t) dx 
+P(a \leq x \leq b) = \int_a^b p(x, t) dx
 $$
 
 Since the particle must be found somewhere, the total probability of finding it over all space must be 1 and thus,
@@ -69,20 +69,21 @@ $$
 \int_{-\infty}^{\infty}{p(x, t)}dx=1
 $$
 
-A wavefunction satisfying this condition is said to be normalized. 
+A wavefunction satisfying this condition is said to be normalized.
 
 A wavefunction is physically acceptable if
+
 1. It satisfies the Schrödinger equation
 2. It is normalizable so that it can have a valid probability interpretation
 
-It shall be noted that if $\Psi(x, t)$ is a solution to the Schrödinger equation, then $A\Psi(x, t)$ is also a solution where $A$ is any complex constant. 
+It shall be noted that if $\Psi(x, t)$ is a solution to the Schrödinger equation, then $A\Psi(x, t)$ is also a solution where $A$ is any complex constant.
 
 ### Statement of Probability Conservation
 
 Suppose the wavefunction is normalized at some initial time. We can ask whether Schrödinger evolution preserves this normalization.
 
 $$
-\frac{d}{dt}\int_{-\infty}^{\infty}{|\Psi|^2 dx} = \int_{-\infty}^{\infty} {\frac{\partial}{\partial t}(\Psi^{\ast} \Psi) dx} 
+\frac{d}{dt}\int_{-\infty}^{\infty}{|\Psi|^2 dx} = \int_{-\infty}^{\infty} {\frac{\partial}{\partial t}(\Psi^{\ast} \Psi) dx}
 $$
 
 and using the product rule,
@@ -97,13 +98,13 @@ $$
 \frac{d}{dt} \int_{-\infty}^{\infty}{|\Psi|^2 dx} = \frac{i \hbar}{2m} \int_{-\infty}^{\infty} {\left(\Psi^{\ast} \frac{\partial^2 \Psi}{\partial x^2} - \Psi \frac{\partial^2 \Psi^{\ast}}{\partial x^2}\right) dx}
 $$
 
-On solving and applying limits, 
+On solving and applying limits,
 
 $$
 \frac{d}{dt} \int_{-\infty}^{\infty} {|\Psi(x, t)|^2 dx} = 0
 $$
 
-Thus, Schrödinger evolution cannot cause total probability to disappear or spontaneously appear even though it may redistribute itself throughout space. 
+Thus, Schrödinger evolution cannot cause total probability to disappear or spontaneously appear even though it may redistribute itself throughout space.
 
 ### Expectation Values
 
@@ -113,7 +114,7 @@ $$
 \langle x \rangle = \int_{-\infty}^{\infty} xp(x) dx
 $$
 
-More generally, for an ordinary scaler-valued function $f(x)$, 
+More generally, for an ordinary scaler-valued function $f(x)$,
 
 $$
 \langle f(x) \rangle = \int_{-\infty}^{\infty} f(x) p(x) dx
@@ -127,9 +128,9 @@ $$
 
 ### Spread of the Distribution
 
-The expectation value gives the center of the probability distribution, but it does not tell about how widely spread it is. 
+The expectation value gives the center of the probability distribution, but it does not tell about how widely spread it is.
 
-Thus, we define variance 
+Thus, we define variance
 
 $$
 (\Delta x)^2 = {\langle x^2 \rangle} - {\langle x \rangle}^2
@@ -143,7 +144,7 @@ $$
 
 ### Position and Momentum
 
-Classically, momentum is related to the time derivate of position by 
+Classically, momentum is related to the time derivate of position by
 
 $$
 p = m \frac{dx}{dt}
@@ -154,26 +155,26 @@ Quantum mechanically, since we describe a particle by wavefunctiom, we seek a di
 Since we have,
 
 $$
-\langle x \rangle = \int x |\Psi(x, t)|^2  dx 
+\langle x \rangle = \int x |\Psi(x, t)|^2  dx
 $$
 
-we take 
+we take
 
 $$
 \hat{x} = x
 $$
 
-to denote that it acts on $\Psi$ and have a unified framework for every observable. 
-Now, 
+to denote that it acts on $\Psi$ and have a unified framework for every observable.
+Now,
 
 $$
-\frac{d \langle x \rangle}{dt} = \int x \frac{\partial}{\partial t}|\Psi(x, t)|^2  dx 
+\frac{d \langle x \rangle}{dt} = \int x \frac{\partial}{\partial t}|\Psi(x, t)|^2  dx
 $$
 
 On simplifying it using integration by parts and removing away the boundary term since $\Psi \to 0$ at $\pm \infty$, we get
 
 $$
-\frac{d \langle x \rangle}{dt} = - \frac{i\hbar}{m} \int{\left( \Psi^{\ast} \frac{\partial \Psi}{\partial x} \right) dx} 
+\frac{d \langle x \rangle}{dt} = - \frac{i\hbar}{m} \int{\left( \Psi^{\ast} \frac{\partial \Psi}{\partial x} \right) dx}
 $$
 
 which gives
@@ -182,7 +183,7 @@ $$
 \langle p \rangle = m \frac{d \langle x \rangle}{dt} = -i\hbar \int{\left( \Psi^{\ast} \frac{\partial \Psi}{\partial x} \right) dx}
 $$
 
-Here, we have 
+Here, we have
 
 $$
 \boxed{\hat{p} = -i\hbar \frac{\partial}{\partial x}}
@@ -206,31 +207,31 @@ where $\sigma_x$ is the standard deviation in $x$, and $\sigma_p$ is the standar
 
 This will be proved later.
 
-Gaussian wavefunction centered around zero, given by, 
+Gaussian wavefunction centered around zero, given by,
 
 $$
 \Psi(x, t) = Ae^{-ait}e^{-amx^2/\hbar}
 $$
 
-has the minimum uncertainty product of $\hbar/2$. 
+has the minimum uncertainty product of $\hbar/2$.
 
-Physically, the more precise a wavefunction's position is, the less precise the momentum. This can also be observed in classical thought experiments. 
+Physically, the more precise a wavefunction's position is, the less precise the momentum. This can also be observed in classical thought experiments.
 
 ## Stationary States
 
-In Schrödinger equation, if potential is assumed to be time-independent, one can apply separation of variables by taking $\Psi(x, t) = \psi(x)\phi(t)$  and obtain the Time-Independent Schrödinger equation for one spatial dimension
+In Schrödinger equation, if potential is assumed to be time-independent, one can apply separation of variables by taking $\Psi(x, t) = \psi(x)\phi(t)$ and obtain the Time-Independent Schrödinger equation for one spatial dimension
 
 $$
 -\frac{\hbar^2}{2m} \frac{d^2 \psi}{dx^2} + V\psi = E\psi
 $$
 
-along with 
+along with
 
 $$
 \frac{d\phi}{dt} = \frac{-iE}{\hbar} \phi
 $$
 
-This gives us $\phi(t) = e^{-iEt/\hbar}$. Thus, we get $\Psi(x, t) = \psi(x) e^{-iEt/\hbar}$ where $\psi(x)$ are the spatial parts of solutions of the time-independent Schrödinger equation which are known as **stationary states**. 
+This gives us $\phi(t) = e^{-iEt/\hbar}$. Thus, we get $\Psi(x, t) = \psi(x) e^{-iEt/\hbar}$ where $\psi(x)$ are the spatial parts of solutions of the time-independent Schrödinger equation which are known as **stationary states**.
 
 ### Concept of Hamiltonian
 
@@ -314,7 +315,7 @@ $$
 \sigma_H^2=0.
 $$
 
-Thus, every separable solution has the property that *every measurement of the total energy is certain to return the value* $E$.
+Thus, every separable solution has the property that _every measurement of the total energy is certain to return the value_ $E$.
 
 ### General Solution
 
@@ -338,10 +339,10 @@ $$
 
 ## Particle in an Infinite Potential Well
 
-We define the potential of a particle in an infinite potential well by 
+We define the potential of a particle in an infinite potential well by
 
 $$
-V(x) = 
+V(x) =
 \begin{cases}
 0, & \text{if }0 \leq x \leq a \\
 \infty, & \text{otherwise}
@@ -351,11 +352,11 @@ $$
 Since the potential is infinite outside the well, the wavefunction vanishes outside the well. Taking the wavefunction to satisfy the usual boundary condition at the walls,
 
 $$
-\psi(0) = 0 \quad, 
+\psi(0) = 0 \quad,
 \psi(a) = 0
 $$
 
-We don't comment upon differentiability for $x < 0$ and $x > a$ since wavefunction is zero outside the well and physically, particle cannot pentrate the barrier at all. 
+We don't comment upon differentiability for $x < 0$ and $x > a$ since wavefunction is zero outside the well and physically, particle cannot pentrate the barrier at all.
 
 Thus, inside the region, the wavefunction satisfies
 
@@ -363,7 +364,7 @@ $$
 -\frac{\hbar^2}{2m} \frac{d^2 \psi}{dx^2} = E \psi
 $$
 
-On solving the above equation, we obtain the solution of the form 
+On solving the above equation, we obtain the solution of the form
 
 $$
 \psi(x) = A \cos(kx) + B \sin (kx)
@@ -373,7 +374,7 @@ where $k = \sqrt{2mE/\hbar^2}$
 
 On satisfying boundary conditions, we get $A = 0$ and $ka = n\pi$, $n = 1, 2, 3, \dots$.
 
-Now, $k = \sqrt{2mE/\hbar^2}$ so 
+Now, $k = \sqrt{2mE/\hbar^2}$ so
 
 $$
 E = \frac{\hbar^2 k^2}{2m}
@@ -385,7 +386,7 @@ $$
 E_n = \frac{n^2 \pi^2 \hbar^2}{2m a^2}
 $$
 
-Now, to determine $B$, we use the normalization property giving $|B| = \sqrt{2/a}$ and conventionally we take it to be positive. This gives us 
+Now, to determine $B$, we use the normalization property giving $|B| = \sqrt{2/a}$ and conventionally we take it to be positive. This gives us
 
 $$
 \psi_n(x) = \sqrt{\frac{2}{a}} \sin \left(\frac{n\pi}{a}x \right)
@@ -413,13 +414,12 @@ $$
 
 where $\delta_{mn}$ denotes Kronecker delta. Thus $\psi_n$'s are mutually orthonormal (mutually orthogonal and normalized).
 
-
 ## Particle in a Finite Potential Well
 
-Practically, we deal with finite potential values and thus, here we define 
+Practically, we deal with finite potential values and thus, here we define
 
 $$
-V(x) = 
+V(x) =
 \begin{cases}
 0, & \text{if }0 \leq x \leq a \\
 V_0, & \text{otherwise}
@@ -431,26 +431,26 @@ If $E > V_0$, the particle can be regarded as free (unbound), since its kinetic 
 For $E < V_0$, and since $V_0$ is finite, we obtain the boundary conditions
 
 $$
-\psi_I (0) = \psi_{II} (0) \quad, 
+\psi_I (0) = \psi_{II} (0) \quad,
 \psi_I (0)' = \psi_{II}' (0)
 $$
 
 and
 
 $$
-\psi_{II} (a) = \psi_{III} (a) \quad, 
+\psi_{II} (a) = \psi_{III} (a) \quad,
 \psi_{II}' (a) = \psi_{III}' (a)
 $$
 
-where $\psi_I(x)$ denotes wavefunction for $x < 0$, $\psi_{II}(x)$ denotes wavefunction for $0 \leq x \leq a$ and $\psi_{III}(x)$ denotes wavefunction for $x > a$. 
+where $\psi_I(x)$ denotes wavefunction for $x < 0$, $\psi_{II}(x)$ denotes wavefunction for $0 \leq x \leq a$ and $\psi_{III}(x)$ denotes wavefunction for $x > a$.
 
-Now, for $0 \leq x \leq a$, from Schrödinger's equation we have 
+Now, for $0 \leq x \leq a$, from Schrödinger's equation we have
 
 $$
 -\frac{\hbar^2}{2m} \frac{d^2 \psi_{II}(x)}{dx^2} = E \psi_{II}(x)
 $$
 
-which gives solution of the form 
+which gives solution of the form
 
 $$
 \psi_{II}(x) = Ce^{ikx} + De^{-ikx}
@@ -458,7 +458,7 @@ $$
 
 where $k^2 = 2mE/\hbar^2$
 
-For $x < 0$, from Schrödinger's equation we have 
+For $x < 0$, from Schrödinger's equation we have
 
 $$
 -\frac{\hbar^2}{2m} \frac{d^2\psi_{I}(x)}{dx^2} + V_0\psi_{I}(x) = E \psi_{I}(x)
@@ -467,17 +467,16 @@ $$
 From this, we obtain solution of the form
 
 $$
-\psi_{I}(x) = Ae^{\kappa x} + Be^{-\kappa x} 
+\psi_{I}(x) = Ae^{\kappa x} + Be^{-\kappa x}
 $$
 
-where $\kappa^2 = 2m(V_0-E)/\hbar^2$. 
+where $\kappa^2 = 2m(V_0-E)/\hbar^2$.
 
 For $x > a$, we similarly have solution of the form
 
 $$
 \psi_{III}(x) = Fe^{\kappa x} + Ge^{-\kappa x}
 $$
-
 
 From boundary conditions,
 
@@ -503,10 +502,10 @@ This information can be used to find out energy levels.
 
 ### Step Potential
 
-We consider the potential function 
+We consider the potential function
 
-$$ 
-V(x) = 
+$$
+V(x) =
 \begin{cases}
 V_0, & x \geq a \\
 0, & x < a
@@ -518,7 +517,7 @@ Now consider $E > V_0$.
 Now, we impose boundary conditions
 
 $$
-\psi_I(a) = \psi_II(a) \quad, 
+\psi_I(a) = \psi_II(a) \quad,
 \psi_I'(a) = \psi_II`(a)
 $$
 
@@ -536,13 +535,13 @@ $$
 
 where $k_2^2 = 2m(E - V_0)/\hbar^2$.
 
-Now, for the standard problem, since incoming is from the left, outgoing in the other region has to be along +x and thus, we take $D = 0$. Hence, the reflection coefficient is given by $|B/A|^2$ and transmission coefficient is given by $(k_2/k_1)|C/A|^2$ and we have $R + T = 1$. 
+Now, for the standard problem, since incoming is from the left, outgoing in the other region has to be along +x and thus, we take $D = 0$. Hence, the reflection coefficient is given by $|B/A|^2$ and transmission coefficient is given by $(k_2/k_1)|C/A|^2$ and we have $R + T = 1$.
 
 In case of $E < V_0$, $\psi_II(x)$ will show exponential behavior insstead of oscillatory.
 
 ### Rectangular Barrier
 
-We consider the potential 
+We consider the potential
 
 $$
 V(x) =
@@ -560,16 +559,16 @@ Now, for any $E$, on integrating Schrödinger's equation around $x = a$ with $\e
 We impose boundary conditions
 
 $$
-\psi_I(0) = \psi_{II}(0) \quad, 
+\psi_I(0) = \psi_{II}(0) \quad,
 \psi_I'(0) = \psi_{II}'(0)
 $$
 
 $$
-\psi_{II}(a) = \psi_{III}(a) \quad, 
+\psi_{II}(a) = \psi_{III}(a) \quad,
 \psi_{II}'(a) = \psi_{III}'(a)
 $$
 
-On applying Schrödinger's equation, 
+On applying Schrödinger's equation,
 
 $$
 \psi_I(x) = Ae^{ik_1x} + Be^{-ik_1x}
@@ -597,11 +596,11 @@ $$
 \psi_{III}(x) = Fe^{ik_1x} + Ge^{-ik_1x}
 $$
 
-Since there is no incoming wave from the right, we have $G= 0$. 
+Since there is no incoming wave from the right, we have $G= 0$.
 
 ## Harmonic Oscillator
 
-A harmonic oscillator is a system in which the restoring force is linear in the displacement from its equilibrium position. 
+A harmonic oscillator is a system in which the restoring force is linear in the displacement from its equilibrium position.
 
 Thus, if the equilibrium position is $x_0$, then
 
@@ -611,7 +610,7 @@ $$
 
 where $k > 0$ is the force constant.
 
-Using 
+Using
 
 $$
 F = -\frac{dV}{dx}
@@ -635,27 +634,27 @@ $$
 V(x) = \frac{1}{2} kx^2
 $$
 
-### Classical Harmonic Oscillator 
+### Classical Harmonic Oscillator
 
 The classical harmonic oscillator is obtained by applying Newton's law.
 
-$$ 
+$$
 F = m \frac{d^2x}{dt^2}
 $$
 
-giving 
+giving
 
 $$
 \frac{d^2x}{dt^2} + \frac{k}{m}x = 0
 $$
 
-Now, define the angular frequency 
+Now, define the angular frequency
 
 $$
 \omega = \sqrt{\frac{k}{m}}
 $$
 
-Therefore, 
+Therefore,
 
 $$
 \frac{d^2x}{dt^2} + \omega^2 x = 0
@@ -667,9 +666,9 @@ $$
 x(t) = A \cos(\omega t) + B \sin (\omega t)
 $$
 
-where $A$ and $B$ are determined by the initial position and velocity. 
+where $A$ and $B$ are determined by the initial position and velocity.
 
-The particle undergoes periodic oscillation with time period 
+The particle undergoes periodic oscillation with time period
 
 $$
 T = \frac{2\pi}{\omega}
@@ -689,7 +688,7 @@ $$
 H(x, p) = T + V
 $$
 
-The kinetic energy is 
+The kinetic energy is
 
 $$
 T = \frac{1}{2} mv^2 = \frac{p^2}{2m}
@@ -711,9 +710,9 @@ which is the classical Hamiltonian of the harmonic oscillator. For this particul
 
 ### Approximation of a General Potential Near a Local Minimum
 
-Suppose a particle moves in some arbitrary potential $V(x)$. Now, suppose the potential has a local minimum at $x=x_0$. 
+Suppose a particle moves in some arbitrary potential $V(x)$. Now, suppose the potential has a local minimum at $x=x_0$.
 
-Thus, at $x = x_0$, 
+Thus, at $x = x_0$,
 
 $$
 V'(x_0) = 0, \quad V''(x_0) > 0
@@ -731,8 +730,7 @@ $$
 V(x) \approx V(x_0) + \frac{1}{2}V''(x_0)(x-x_0)^2
 $$
 
-
-Since 
+Since
 
 $$
 F(x_0) = -V'(x_0) = 0
@@ -792,7 +790,7 @@ where $k$ represents how strongly the force pulls back the object when displaced
 
 ### Quantum Harmonic Oscillator
 
-In quantum mechanics, position and momentum are repesented by operators 
+In quantum mechanics, position and momentum are repesented by operators
 
 $$
 x \to \hat{x}, \quad p \to \hat{p}
@@ -842,13 +840,13 @@ $$
 -\frac{\hbar^2}{2m} \frac{d^2\psi}{dx^2} + \frac{1}{2}m \omega^2 x^2 \psi = E \psi
 $$
 
-with the boundary condition given by 
+with the boundary condition given by
 
 $$
 \psi(x) \to 0 \text{ as } |x| \to \infty
 $$
 
-Now, define 
+Now, define
 
 $$
 \xi = \sqrt{\frac{m \omega}{\hbar}} x
@@ -870,21 +868,21 @@ $$
 \frac{d^2\psi}{d\xi^2} - \xi^2 \psi = 0
 $$
 
-General asymptotic form is 
+General asymptotic form is
 
 $$
 \psi \sim Ae^{-\xi^2/2} + Be^{\xi^2/2}
 $$
 
-At large $|\xi|$, the wavefunction can behave like a linear combination of these two functions. 
+At large $|\xi|$, the wavefunction can behave like a linear combination of these two functions.
 
-For normalization to hold, $B = 0$ so 
+For normalization to hold, $B = 0$ so
 
 $$
 \psi \tilde Ae^{-\xi^2/2}
 $$
 
-Now take an Ansatz for all $\xi$ 
+Now take an Ansatz for all $\xi$
 
 $$
 \psi(\xi) = h(\xi) e^{-\xi^2/2}
@@ -893,11 +891,11 @@ $$
 on substituting it in the dimensionless Schrödinger equation, we get
 
 $$
-\frac{d^2h(\xi)}{d{\xi}^2} - 2\xi \frac{dh(\xi)}{d\xi} + 
+\frac{d^2h(\xi)}{d{\xi}^2} - 2\xi \frac{dh(\xi)}{d\xi} +
 (\epsilon-1)h(\xi) = 0
 $$
 
-Here, $\xi = 0$ is an ordinary point for the second-order. Therefore, we can seek a power-series solution about $\xi = 0$. Since $x=0$ was chosen as the equilibrium position in the $x$-coordinate, $\xi = 0$ corresponds to the equilibrium point in  the dimensionless coordinate.
+Here, $\xi = 0$ is an ordinary point for the second-order. Therefore, we can seek a power-series solution about $\xi = 0$. Since $x=0$ was chosen as the equilibrium position in the $x$-coordinate, $\xi = 0$ corresponds to the equilibrium point in the dimensionless coordinate.
 
 So, writing series solution around $x = 0$ i.e. $h(\xi) = \sum_{j=0}^{\infty} a_j \xi^j$, we get the recurrence relation
 
@@ -905,9 +903,9 @@ $$
 a_{j+2} = \frac{2j + 1 - \epsilon}{(j+1)(j+2)} a_j
 $$
 
-The even part of the series is given by $\sum_{n=0}^{\infty} a_{2n} \xi^{2n}$ and odd part of the series is given by $\sum_{n=0}^{\infty} a_{2n+1} \xi^{2n+1}$. 
+The even part of the series is given by $\sum_{n=0}^{\infty} a_{2n} \xi^{2n}$ and odd part of the series is given by $\sum_{n=0}^{\infty} a_{2n+1} \xi^{2n+1}$.
 
-Now, the physical solution requires the series for $h(\xi)$ to terminate since otherwise the resulting wavefunction grows exponentially at large $|\xi|$, making it non-normalizable. Thus, we have to truncate the series solution for some $n$. 
+Now, the physical solution requires the series for $h(\xi)$ to terminate since otherwise the resulting wavefunction grows exponentially at large $|\xi|$, making it non-normalizable. Thus, we have to truncate the series solution for some $n$.
 
 Suppose for some $n$,
 
@@ -915,7 +913,7 @@ $$
 a_{n+2} = 0
 $$
 
-then we have 
+then we have
 
 $$
 \epsilon = \frac{2E}{\hbar \omega} = 2n+1
@@ -931,7 +929,7 @@ $$
 
 where $n = 0, 1, 2, \dots$.
 
-Now, $h_n(\xi)$ refers to the polynomial of degree $n$ and if $n$ is even, the odd branch is considered zero and even survive and vice versa. 
+Now, $h_n(\xi)$ refers to the polynomial of degree $n$ and if $n$ is even, the odd branch is considered zero and even survive and vice versa.
 
 So, now we have
 
@@ -971,12 +969,11 @@ $$
 \hat{a} := \frac{1}{\sqrt{2 \hbar m \omega}} (m\omega \hat{x} + i \hat{p})
 $$
 
-
 ##### Commutators and Anticommutators
 
-A commutator is denoted by $[A, B]$ and defined as $[A, B] := AB - BA$. 
+A commutator is denoted by $[A, B]$ and defined as $[A, B] := AB - BA$.
 
-If $[A, B] = 0$, then $A$ and $B$ are said to be *commute*.
+If $[A, B] = 0$, then $A$ and $B$ are said to be _commute_.
 
 Now,
 
@@ -990,15 +987,15 @@ $$
 [\hat{x}, \hat{p}] = i\hbar
 $$
 
-An anticommutator is denoted by $\\{A, B \\}$ and defined as $\\{A, B \\} := AB + BA$. 
+An anticommutator is denoted by $\\{A, B \\}$ and defined as $\\{A, B \\} := AB + BA$.
 
-Now, 
+Now,
 
 $$
 \hat{a}= \sqrt{\frac{1}{2\hbar m \omega}} (m \omega \hat{x} + i \hat{p})
 $$
 
-and 
+and
 
 $$
 \hat{a}^{\dagger} = \sqrt{\frac{1}{2\hbar m \omega}} (m \omega \hat{x} - i \hat{p})
@@ -1018,7 +1015,7 @@ $$
 \end{aligned}
 $$
 
-Thus, we get 
+Thus, we get
 
 $$
 [\hat{a}, \hat{a}^{\dagger}] = 1
@@ -1052,7 +1049,7 @@ $$
 \left[\hat{H}, \hat{a} \right] = -\hbar \omega \hat{a}
 $$
 
-and 
+and
 
 $$
 \left[\hat{H}, \hat{a}^{\dagger} \right] = \hbar \omega \hat{a}^{\dagger}
@@ -1066,13 +1063,13 @@ $$
 \hat{H}(\hat{a} \psi) = \left(E - \hbar \omega \right)\left( \hat{a} \psi \right)
 $$
 
-thus, $\hat{a}$ is referred to as lowering operator, and 
+thus, $\hat{a}$ is referred to as lowering operator, and
 
 $$
 \hat{H}({\hat{a}^{\dagger} \psi}) = \left(E + \hbar \omega \right) \left( \hat{a}^{\dagger} \psi \right)
 $$
 
-where $\psi$ are the stationary states and $E$ the corresponding eigenvalues. 
+where $\psi$ are the stationary states and $E$ the corresponding eigenvalues.
 
 #### Ground State Energy
 
@@ -1126,19 +1123,19 @@ $$
 \hat{H} \psi_n = E_n \psi_n
 $$
 
-Thus, 
+Thus,
 
 $$
 \hat{H}(\hat{a}^{\dagger} \psi_n) = (E_n + \hbar \omega)(\hat{a}^{\dagger} \psi_n)
 $$
 
-and 
+and
 
 $$
 \hat{H}(\hat{a} \psi_n) = (E_n - \hbar \omega)(\hat{a} \psi_n)
 $$
 
-hence $\hat{a}^{\dagger} \psi_n$, if nonzero, is an energy eigenfunction with energy $E_n + \hbar \omega$. 
+hence $\hat{a}^{\dagger} \psi_n$, if nonzero, is an energy eigenfunction with energy $E_n + \hbar \omega$.
 
 So, starting from ground state, every application of $\hat{a}^{\dagger}$ adds $\hbar \omega$ and thus, in general
 
@@ -1146,7 +1143,7 @@ $$
 E_n = E_0 + n\hbar \omega
 $$
 
-so 
+so
 
 $$
 E_n = \left(n + \frac{1}{2} \right)\hbar \omega
@@ -1158,7 +1155,7 @@ $$
 \hat{a} \psi_n = C_n \psi_{n-1}
 $$
 
-Similarly, 
+Similarly,
 
 $$
 \hat{a}^{\dagger} \psi_n= D_n \psi_{n+1}
@@ -1228,10 +1225,10 @@ $$
 
 #### Property of Orthogonality
 
-Now, consider 
+Now, consider
 
 $$
-\int_{-\infty}^{\infty} \psi_m^{\ast} \hat{a}^{\dagger} \hat{a} \psi_n dx = n \int_{-\infty}^{\infty} \psi_m^{\ast} \psi_n dx = \int_{-\infty}^{\infty} {(\hat{a}^{\dagger} \hat{a} \psi_m)^{\ast} \psi_n \, dx} 
+\int_{-\infty}^{\infty} \psi_m^{\ast} \hat{a}^{\dagger} \hat{a} \psi_n dx = n \int_{-\infty}^{\infty} \psi_m^{\ast} \psi_n dx = \int_{-\infty}^{\infty} {(\hat{a}^{\dagger} \hat{a} \psi_m)^{\ast} \psi_n \, dx}
 $$
 
 which comes from the fact that $\hat{a}^{\dagger} \hat{a}$ is a self-adjoint operator.
@@ -1242,7 +1239,7 @@ $$
 n \int_{-\infty}^{\infty} \psi_m^{\ast} \psi_n dx =  m \int_{-\infty}^{\infty} \psi_m^{\ast} \psi_n \, dx
 $$
 
-If $m \neq n$, 
+If $m \neq n$,
 
 $$
 \int_{-\infty}^{\infty} \psi_m^{\ast} \psi_n dx = 0

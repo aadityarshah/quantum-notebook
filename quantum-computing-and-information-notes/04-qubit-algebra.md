@@ -21,25 +21,25 @@ Properties of a qubit state $\ket{\psi}$ are
 1. $\braket{\psi | \psi} = 1 \implies |\alpha|^2 + |\beta|^2 = 1$.
 2. A global phase factor $e^{i\theta}$ is physically irrelevant.
 
-Any qubit state can also be represented in terms of two real parameters, $\theta$ and $\phi$ 
+Any qubit state can also be represented in terms of two real parameters, $\theta$ and $\phi$
 
 $$
 \ket{\psi} \equiv \ket{\theta, \phi} = \cos\left(\frac{\theta}{2}\right) \ket{0} + e^{i \phi} \sin\left(\frac{\theta}{2}\right) \ket{1}
 $$
 
-where $0 \leq \theta \leq \pi$ and $0 \leq \phi \lt 2 \pi$. 
+where $0 \leq \theta \leq \pi$ and $0 \leq \phi \lt 2 \pi$.
 
 ## Operators
 
 ### Operator action on qubits
 
-An operator $\hat{A}$ acts on a state vector in Hilbert space to give another state vector in the Hilbert space. This is represented by 
+An operator $\hat{A}$ acts on a state vector in Hilbert space to give another state vector in the Hilbert space. This is represented by
 
 $$
 \hat{A} \ket{\psi} =\ket{\phi}
 $$
 
-where $\ket{\phi}$ is another vector in the Hilbert space which might not be normalized. 
+where $\ket{\phi}$ is another vector in the Hilbert space which might not be normalized.
 
 ### Completeness Relation
 
@@ -67,7 +67,7 @@ Also, a general state can be denoted by
 
 $$
 \ket{\psi} \equiv \begin{pmatrix} \alpha \\ \beta \end{pmatrix}
-$$ 
+$$
 
 Now, suppose the operator $\hat{A}$ acts on the basis states,
 
@@ -85,13 +85,13 @@ $$
 \hat{A} \ket{\psi} = \begin{pmatrix} a_{00} \alpha + a_{01} \beta \\ a_{10} \alpha + a_{11} \beta \end{pmatrix}
 $$
 
-and the coordinates could be broken down into 
+and the coordinates could be broken down into
 
 $$
 \begin{pmatrix} a_{00} & a_{01} \\ a_{10} & a_{11} \end{pmatrix} \begin{pmatrix} \alpha \\ \beta \end{pmatrix}
 $$
 
-Thus, we define the matrix representation of the corresponding operator as 
+Thus, we define the matrix representation of the corresponding operator as
 
 $$
 [\hat{A}] = \begin{pmatrix} a_{00} & a_{01} \\ a_{10} & a_{11} \end{pmatrix}
@@ -101,7 +101,7 @@ It shall be noted that the outer product $\ket{j} \bra{k}$, where $j, k \in \{0,
 
 ### Commutators
 
-We define a commutator $[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$ and if $[\hat{A}, \hat{B}] = 0$, we say $\hat{A}$ and $\hat{B}$ commute. 
+We define a commutator $[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$ and if $[\hat{A}, \hat{B}] = 0$, we say $\hat{A}$ and $\hat{B}$ commute.
 
 We define an anticommutator by $\{\hat{A}, \hat{B}\} = \hat{A}\hat{B} + \hat{B}\hat{A}$.
 
@@ -125,7 +125,7 @@ $$
 f(\hat{A})\ket{\lambda_i} = f(\lambda_i) \ket{\lambda_i}
 $$
 
-whenever function $f(\hat{A})$ is well-defined. 
+whenever function $f(\hat{A})$ is well-defined.
 
 And if the eigenvectors $\{\lambda_i\}$ form a complete orthonormal eigenbasis, then we get
 
@@ -157,28 +157,29 @@ Thus, we obtain the following properties
 
 1. ${\hat{\sigma}_+}^2 \equiv  {\hat{\sigma}_-}^2 \equiv 0$, ${\hat{\sigma}_z}^2 = I$
 2. ${\hat{\sigma}_+}^{\dagger} = \hat{\sigma}_-$, ${\hat{\sigma}_-}^{\dagger} = \hat{\sigma}_+$, ${\hat{\sigma}_z}^{\dagger} = \hat{\sigma}_z$
-3. $[\hat{\sigma}_+, \hat{\sigma}_-] = \hat{\sigma}_z$, $[\hat{\sigma}_z, \hat{\sigma}_{\pm}] = \pm 2 \hat{\sigma}_{\pm}$, 
+3. $[\hat{\sigma}_+, \hat{\sigma}_-] = \hat{\sigma}_z$, $[\hat{\sigma}_z, \hat{\sigma}_{\pm}] = \pm 2 \hat{\sigma}_{\pm}$,
 4. $\{\hat{\sigma}_+, \hat{\sigma}_- \} = I$, $\{\hat{\sigma}_x, \hat{\sigma}_y \} = 0$
 
 Observe that $\hat{\sigma}_{\pm}$ are not Hermitian. Thus, we define
 
 $$
-\hat{\sigma}_x = \hat{\sigma}_+  +\hat{\sigma}_- 
+\hat{\sigma}_x = \hat{\sigma}_+  +\hat{\sigma}_-
 $$
 
 $$
 \hat{\sigma}_y = -i(\hat{\sigma}_+ - \hat{\sigma}_-)
 $$
 
-Notice that ${\hat{\sigma}_x}^{\dagger} = \hat{\sigma}_x$, and ${\hat{\sigma}_y}^{\dagger} = \hat{\sigma}_y$ 
+Notice that ${\hat{\sigma}_x}^{\dagger} = \hat{\sigma}_x$, and ${\hat{\sigma}_y}^{\dagger} = \hat{\sigma}_y$
 
 Thus, we obtain the following properties:
+
 1. $\hat{\sigma}_x^2 = \hat{\sigma}_y^2 = \hat{\sigma}_z^2 = I$
 2. $\hat{\sigma}_x \hat{\sigma}_y = i \hat{\sigma}_z, \hat{\sigma}_z \hat{\sigma}_x = i \hat{\sigma}_y, \hat{\sigma}_y \hat{\sigma}_z = i \hat{\sigma}_x$
 3. $[\hat{\sigma}_x, \hat{\sigma}_y] = 2i \hat{\sigma}_z$, $[ \hat{\sigma}_y, \hat{\sigma}_z ] = 2i \hat{\sigma}_x$, $[\hat{\sigma}_z, \hat{\sigma}_x ] = 2i \hat{\sigma}_y$
 4. $\{\hat{\sigma}_x, \hat{\sigma}_y \} = 0, \{\hat{\sigma}_y, \hat{\sigma}_z \} = 0, \{\hat{\sigma}_z, \hat{\sigma}_x \} = 0$
 
-The matrices $\hat{\sigma}_x$, $\hat{\sigma}_y$ and $\hat{\sigma}_z$ are called *Pauli Matrices*. 
+The matrices $\hat{\sigma}_x$, $\hat{\sigma}_y$ and $\hat{\sigma}_z$ are called _Pauli Matrices_.
 
 ## Pauli Operator
 
@@ -186,17 +187,17 @@ Any operator $\hat{A}$ can be represented as
 
 $$
 \hat{A} = a_0 I + a_x \hat{\sigma}_x + a_y \hat{\sigma}_y + a_z \hat{\sigma}_z
-$$ 
+$$
 
 where $a_0, a_x, a_y, a_z \in \mathbb{C}$.
 
-So, 
+So,
 
 $$
 \hat{A} = a_0 I + \vec{a}\cdot\hat{\vec{\sigma}}
 $$
 
-For $\hat{A}$ to be Hermitian, $a_0, a_x, a_y, a_z \in \mathbb{R}$. So, if $\hat{A}$ is Hermitian, 
+For $\hat{A}$ to be Hermitian, $a_0, a_x, a_y, a_z \in \mathbb{R}$. So, if $\hat{A}$ is Hermitian,
 
 $$
 \hat{A} = a_0 I + |\vec{a}| \vec{n}\cdot\hat{\vec{\sigma}}
@@ -207,12 +208,12 @@ where $\vec{a} = a_x \vec{e_x} + a_y \vec{e_y} + a_z \vec{e_z}$ and $\hat{\vec{\
 Thus, we have
 
 $$
-\vec{n}\cdot\hat{\vec{\sigma}} = n_x \hat{\sigma_x} + n_y \hat{\sigma_y} + n_z \hat{\sigma_z} 
+\vec{n}\cdot\hat{\vec{\sigma}} = n_x \hat{\sigma_x} + n_y \hat{\sigma_y} + n_z \hat{\sigma_z}
 $$
 
-We will refer to the above scalar product as the *Pauli operator*, which can be interpreted as the projection of the *Pauli operator vector* $\hat{\vec{\sigma}}$ along an arbitrary spatial direction $\vec{n}$. 
+We will refer to the above scalar product as the _Pauli operator_, which can be interpreted as the projection of the _Pauli operator vector_ $\hat{\vec{\sigma}}$ along an arbitrary spatial direction $\vec{n}$.
 
-Squaring and using anticommutation relation, we obtain 
+Squaring and using anticommutation relation, we obtain
 
 $$
 \left(\vec{n}\cdot\hat{\vec{\sigma}}\right)^2 = I.
@@ -234,15 +235,16 @@ $$
 \hat{\vec{\sigma}} = \hat{\sigma}_x \vec{e_x} + \hat{\sigma}_y \vec{e_y} + \hat{\sigma}_z \vec{e_z}
 $$
 
-One can show 
-1. $[\vec{a}\cdot \hat{\vec{\sigma}}, \vec{b}\cdot \hat{\vec{\sigma}}] = 2i (\vec{a} \times \vec{b})\cdot \hat{\vec{\sigma}}$
-2. $\{\vec{a} \cdot \hat{\vec{\sigma}}, \vec{b}\cdot \hat{\vec{\sigma}}\} = 2 (\vec{a}\cdot \vec{b}) I$ 
+One can show
 
-where $\vec{a}$ and $\vec{b}$ are two vectors. 
+1. $[\vec{a}\cdot \hat{\vec{\sigma}}, \vec{b}\cdot \hat{\vec{\sigma}}] = 2i (\vec{a} \times \vec{b})\cdot \hat{\vec{\sigma}}$
+2. $\{\vec{a} \cdot \hat{\vec{\sigma}}, \vec{b}\cdot \hat{\vec{\sigma}}\} = 2 (\vec{a}\cdot \vec{b}) I$
+
+where $\vec{a}$ and $\vec{b}$ are two vectors.
 
 ### Eigenvalues of the Pauli Operator
 
-We know 
+We know
 
 $$
 \left(\vec{n}\cdot\hat{\vec{\sigma}}\right)^2 = I.
@@ -260,7 +262,7 @@ $$
 \ket{\psi} = \lambda^2 \ket{\psi}
 $$
 
-Thus, $\lambda = \pm 1$. 
+Thus, $\lambda = \pm 1$.
 
 The corresponding eigenvectors denoted by $\ket{\vec{n}}$ and $\ket{-\vec{n}}$ can be found and turn out to be
 
@@ -271,10 +273,10 @@ $$
 and
 
 $$
-\ket{-\vec{n}} =  \sin\left(\frac{\theta}{2}\right) \ket{0} - e^{i \phi} \cos \left(\frac{\theta}{2} \right)\ket{1} 
+\ket{-\vec{n}} =  \sin\left(\frac{\theta}{2}\right) \ket{0} - e^{i \phi} \cos \left(\frac{\theta}{2} \right)\ket{1}
 $$
 
-if $\vec{n} = \sin \theta \cos \phi \vec{e_x} + \sin \theta \sin \phi \vec{e_y} + \cos \theta \vec{e_z}$. 
+if $\vec{n} = \sin \theta \cos \phi \vec{e_x} + \sin \theta \sin \phi \vec{e_y} + \cos \theta \vec{e_z}$.
 
 Such notation is used for eigenstates since they are dependent on $\vec{n}$.
 
@@ -294,12 +296,11 @@ $$
 
 Note that the eigenstates $\ket{\vec{n}}$ and $\ket{-\vec{n}}$ are also sometimes represented by $\ket{0, \vec{n}}$ and $\ket{1, \vec{n}}$ respectively.
 
-
 ### Function of Pauli Operator
 
-Consider a function of the Pauli operator denoted by $f(\vec{n} \cdot \hat{\vec{\sigma}})$. We know that eigenvalues of the Pauli operator are $\pm 1$. 
+Consider a function of the Pauli operator denoted by $f(\vec{n} \cdot \hat{\vec{\sigma}})$. We know that eigenvalues of the Pauli operator are $\pm 1$.
 
-Thus, 
+Thus,
 
 $$
 f(\vec{n} \cdot \hat{\vec{\sigma}}) \ket{\vec{n}} = f(1) \ket{\vec{n}}
@@ -317,7 +318,7 @@ $$
 f(\vec{n}\cdot \hat{\vec{\sigma}}) = AI + B \vec{n}\cdot \hat{\vec{\sigma}}
 $$
 
-Now, using the eigenstate equation and above general expression, we get 
+Now, using the eigenstate equation and above general expression, we get
 
 $$
 f_+ \equiv A = \frac{f(1) + f(-1)}{2} \\
@@ -356,9 +357,9 @@ $$
 \hat{R}_{\eta}(\vec{n}) = e^{-i \eta \vec{n}\cdot \hat{\vec{\sigma}}/2}
 $$
 
-where $\eta/2 = |\vec{a}|t/\hbar$. 
+where $\eta/2 = |\vec{a}|t/\hbar$.
 
-Clearly, $\hat{R}_{\eta}(\vec{n})$ is a function of $\vec{n}\cdot \hat{\vec{\sigma}}$. 
+Clearly, $\hat{R}_{\eta}(\vec{n})$ is a function of $\vec{n}\cdot \hat{\vec{\sigma}}$.
 
 Take $f(x) = e^{-i\eta x/2}$. So, we have
 
@@ -366,7 +367,7 @@ $$
 f_+ = \frac{e^{-i\eta/2} + e^{i\eta/2}}{2} = \cos \left(\frac{\eta}{2} \right)
 $$
 
-and 
+and
 
 $$
 f_- = \frac{e^{-i\eta/2} - e^{i\eta/2}}{2} = - i \sin \left(\frac{\eta}{2} \right)

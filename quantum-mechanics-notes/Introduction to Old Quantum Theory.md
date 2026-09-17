@@ -15,6 +15,7 @@
     - [Bohr-Sommerfeld model of atom](#bohr-sommerfeld-model-of-atom)
   - [4. Stern-Gerlach Experiment](#4-stern-gerlach-experiment)
   - [5. Compton Effect](#5-compton-effect)
+
 ## Failures of Classical Theory
 
 ### 1. Blackbody Radiation
@@ -23,7 +24,7 @@ A blackbody is an ideal object that absorbs all electromagnetic radiation fallin
 
 Experimentally, the spectrum looks like this
 
-<img src="../assets/blackbody-radiation-graph.jpg" width="390">
+<img src="../assets/blackbody-radiation-graph.jpg" alt="Blackbody radiation graph" width="390">
 
 #### Rayleigh-Jeans Law
 
@@ -38,7 +39,7 @@ $$
 
 where $A$ is the surface area of a blackbody, $T$ is its temperature (in $K$), and `σ` is the **Stefan-Boltzmann constant**, $\sigma=5.670\times10^{-8}\,W/(m^2K^4)$.
 
-The result of classical model for blackbody radiation is known as **Rayleigh-Jeans law**. But it fails to correctly reproduce experimental results for shorter wavelengths though it works for larger, called *UV catastrophe.*
+The result of classical model for blackbody radiation is known as **Rayleigh-Jeans law**. But it fails to correctly reproduce experimental results for shorter wavelengths though it works for larger, called _UV catastrophe._
 
 From Rayleigh--Jean's distribution assuming energy can take any value in $(0,\infty)$. The average value associated with an electromagnetic mode of frequency $\nu$ inside blackbody cavity in thermal equilibrium at temperature $T$ is found by summing product of energy and weights in numerator divided by weights in denominator. Since classical believes it is continuous, we integrate to find it and it is determined to be independent of $\nu$ and obtain $\bar{E}=k_BT=1/\beta$
 
@@ -113,7 +114,7 @@ The Rutherford nuclear model described electrons moving around the nucleus, but 
 
 #### Bohr's semi-classical model of hydrogen atom
 
-These resulted in Bohr giving the ***postulate*** *Electrons in stationary orbits do not emit electromagnetic radiation* (though the reason behind the same was not provided). This accounted for the stability of atom and explained atomic spectra.
+These resulted in Bohr giving the _**postulate**_ _Electrons in stationary orbits do not emit electromagnetic radiation_ (though the reason behind the same was not provided). This accounted for the stability of atom and explained atomic spectra.
 
 According to Bohr's model, electrons move in **circular orbits**, such that
 
@@ -139,7 +140,7 @@ Further derivations by Bohr used classical mechanics like Coulomb force to deter
 
 ##### Failure of Bohr Model
 
-This model worked for hydrogen atom and hydrogen-like ions (one electron) called hydrogenic species but failed for a general atom. High-resolution spectroscopy revealed that some spectral lines consisted of closely spaced components, known as *fine structure*. Bohr's model could not account for this splitting because the energy depended only on the principal quantum number n.
+This model worked for hydrogen atom and hydrogen-like ions (one electron) called hydrogenic species but failed for a general atom. High-resolution spectroscopy revealed that some spectral lines consisted of closely spaced components, known as _fine structure_. Bohr's model could not account for this splitting because the energy depended only on the principal quantum number n.
 
 #### Bohr-Sommerfeld model of atom
 
@@ -151,7 +152,7 @@ $$
 \oint p_i\,dq_i=n_i h
 $$
 
-where $n_i$ is an integer, `q` is coordinate describing position and `p` is momentum corresponding to the coordinate. This is called the *quantization of action*. For circular orbits, this gives $L=n\hbar$ where $\hbar=h/2\pi$. This was introduced since in elliptical orbit, radial motion describes electrons movement towards and away from nucleus whereas angular describes around nucleus thus giving rise to two quantum numbers. For radial action,
+where $n_i$ is an integer, `q` is coordinate describing position and `p` is momentum corresponding to the coordinate. This is called the _quantization of action_. For circular orbits, this gives $L=n\hbar$ where $\hbar=h/2\pi$. This was introduced since in elliptical orbit, radial motion describes electrons movement towards and away from nucleus whereas angular describes around nucleus thus giving rise to two quantum numbers. For radial action,
 
 $$
 \oint p_r\,dr=n_r h
@@ -165,7 +166,7 @@ $$
 
 Sommerfeld said each periodic motion has a quantized action.
 
-He also added relativistic correction based on the fact that in an elliptical orbit, if $r\downarrow$, then $v\uparrow$ and thus electron can move fast enough to that special relativity produces a small correction to its energy which explained a major part of the *fine structure*.
+He also added relativistic correction based on the fact that in an elliptical orbit, if $r\downarrow$, then $v\uparrow$ and thus electron can move fast enough to that special relativity produces a small correction to its energy which explained a major part of the _fine structure_.
 
 ### 4. Stern-Gerlach Experiment
 
@@ -179,11 +180,11 @@ $$
 
 could make different atoms experience different forces due to arbitrary orientations of their magnetic moments, leading to a continuous distribution on the detector.
 
-This was found to be inconsistent with the experiment. Thus, the conclusion that followed was that the component of the magnetic moment along the measurement axis can take discrete values. The term *spin* is used to refer to the *intrinsic angular momentum* rather than the actual classical meaning of spin.
+This was found to be inconsistent with the experiment. Thus, the conclusion that followed was that the component of the magnetic moment along the measurement axis can take discrete values. The term _spin_ is used to refer to the _intrinsic angular momentum_ rather than the actual classical meaning of spin.
 
 ### 5. Compton Effect
 
-<img src="../assets/compton-effect.webp" width="390">
+<img src="../assets/compton-effect.webp" alt="Compton effect" width="390">
 
 Suppose monochromatic X-rays with wavelength $\lambda$ are incident on a sample of graphite. They later emerge as scattered X-rays with wavelength $\lambda'$. A detector is used to measure the intensity of radiation scattered in any direction $\theta$ with respect to the direction of the incident X-ray beam. For a given scattering angle $\theta$, we measure the intensity and the wavelength $\lambda'$ of scattered beam. For all scattering angles except for $\theta=0^\circ$, two intensity peaks are measured, one at $\lambda$ which is the incident wavelength and other at $\lambda'$. The peaks are separated by $\Delta\lambda$ which depends on $\theta$ of the outgoing beam. The shifted peak is due to electrons that can recoil whereas unshifted peak at $\lambda$ is due to scattering from bound electrons or whole atoms. This separation is said to be the **Compton Shift**.
 
