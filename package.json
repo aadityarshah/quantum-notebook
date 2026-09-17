@@ -1,0 +1,25 @@
+{
+  "name": "qist-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-docs.mjs",
+    "dev": "node scripts/sync-docs.mjs && vitepress dev docs",
+    "build": "node scripts/sync-docs.mjs && vitepress build docs",
+    "preview": "vitepress preview docs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint:md": "markdownlint-cli2 README.md \"quantum-mechanics-notes/**/*.md\" \"quantum-computing-and-information-notes/**/*.md\"",
+    "check": "npm run format:check && npm run lint:md && npm run build"
+  },
+  "dependencies": {
+    "markdown-it-mathjax3": "latest",
+    "vitepress": "latest"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "latest",
+    "prettier": "latest",
+    "prettier-plugin-packagejson": "latest"
+  }
+}

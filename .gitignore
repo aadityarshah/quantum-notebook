@@ -1,0 +1,6 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/quantum-mechanics-notes/
+docs/quantum-computing-and-information-notes/
+docs/assets/
