@@ -1,35 +1,5 @@
 # Foundations of Quantum Mechanics
 
-- [The Schrödinger Equation](#the-schrödinger-equation)
-  - [Normalization](#normalization)
-  - [Statement of Probability Conservation](#statement-of-probability-conservation)
-  - [Expectation Values](#expectation-values)
-  - [Spread of the Distribution](#spread-of-the-distribution)
-  - [Position and Momentum](#position-and-momentum)
-  - [Heisenberg's Uncertainty Principle](#heisenbergs-uncertainty-principle)
-- [Stationary States](#stationary-states)
-  - [Concept of Hamiltonian](#concept-of-hamiltonian)
-  - [General Solution](#general-solution)
-- [Particle in an Infinite Potential Well](#particle-in-an-infinite-potential-well)
-- [Particle in a Finite Potential Well](#particle-in-a-finite-potential-well)
-- [Potential Barrier](#potential-barrier)
-  - [Step Potential](#step-potential)
-  - [Rectangular Barrier](#rectangular-barrier)
-- [Harmonic Oscillator](#harmonic-oscillator)
-  - [Classical Harmonic Oscillator](#classical-harmonic-oscillator)
-    - [Energy of the Oscillator](#energy-of-the-oscillator)
-  - [Approximation of a General Potential Near a Local Minimum](#approximation-of-a-general-potential-near-a-local-minimum)
-  - [Quantum Harmonic Oscillator](#quantum-harmonic-oscillator)
-  - [Analytic Method](#analytic-method)
-  - [Ladder Operator Method](#ladder-operator-method)
-    - [Commutators and Anticommutators](#commutators-and-anticommutators)
-    - [Hamiltonian in Terms of Ladder Operators](#hamiltonian-in-terms-of-ladder-operators)
-    - [Lowering and Raising Operators](#lowering-and-raising-operators)
-    - [Ground State Energy](#ground-state-energy)
-    - [Effect on Successive Energy States by Ladder Operators](#effect-on-successive-energy-states-by-ladder-operators)
-    - [Property of Orthogonality](#property-of-orthogonality)
-    - [Expectation Value of Energy](#expectation-value-of-energy)
-
 ## The Schrödinger Equation
 
 With Schrödinger's equation and Born's interpretation as the starting framework of non-relativistic quantum mechanics, we begin with the simplest quantum system - a single non relativistic particle moving in one spatial dimension.  

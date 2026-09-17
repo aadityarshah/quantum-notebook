@@ -42,7 +42,7 @@ $$
 
 where $N_0$ represents number of times the classical result $0$ was measured and $N_1$ when classical result $1$ was measured.
 
-This is not practically feasible. o
+This is not practically feasible.
 
 Thus, **quantum algorithms** must be defined such that they yield a desired answer with sufficiently high probability of being measured every time so not infinitely many measurements are required.
 

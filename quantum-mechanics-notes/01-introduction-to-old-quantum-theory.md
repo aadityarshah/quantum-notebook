@@ -1,21 +1,5 @@
 # Introduction to Old Quantum Theory
 
-- [Failures of Classical Theory](#failures-of-classical-theory)
-  - [1. Blackbody Radiation](#1-blackbody-radiation)
-    - [Rayleigh-Jeans Law](#rayleigh-jeans-law)
-    - [Planck's Law of Blackbody Radiation](#plancks-law-of-blackbody-radiation)
-  - [2. Photoelectric Effect](#2-photoelectric-effect)
-    - [Hertz Experiment](#hertz-experiment)
-    - [Classical Electromagnetic Wave Theory](#classical-electromagnetic-wave-theory)
-    - [Einstein's Photon Theory](#einsteins-photon-theory)
-  - [3. Bohr's Model and Bohr-Sommerfeld Model of Atom](#3-bohrs-model-and-bohr-sommerfeld-model-of-atom)
-    - [Failure of earlier models of atoms](#failure-of-earlier-models-of-atoms)
-    - [Bohr's semi-classical model of hydrogen atom](#bohrs-semi-classical-model-of-hydrogen-atom)
-      - [Failure of Bohr Model](#failure-of-bohr-model)
-    - [Bohr-Sommerfeld model of atom](#bohr-sommerfeld-model-of-atom)
-  - [4. Stern-Gerlach Experiment](#4-stern-gerlach-experiment)
-  - [5. Compton Effect](#5-compton-effect)
-
 ## Failures of Classical Theory
 
 ### 1. Blackbody Radiation
@@ -30,14 +14,14 @@ Experimentally, the spectrum looks like this
 
 The findings can be summarized by
 
-1. **Wien's Displacement Law** $\lambda_{max}T=2.898\times10^{-3}\,m\cdot K=b$ where $\lambda_{max}$ is the wavelength at which blackbody radiates at maximum intensity when spectrum is plotted per unit wavelength, $T$ is the temperature, and `b` is Wien's displacement constant
+1. **Wien's Displacement Law** $\lambda_{max}T=2.898\times10^{-3}\,m\cdot K=b$ where $\lambda_{max}$ is the wavelength at which blackbody radiates at maximum intensity when spectrum is plotted per unit wavelength, $T$ is the temperature, and $b$ is Wien's displacement constant
 2. **Stefan's Law** Total power of blackbody radiation emitted across entire spectrum of wavelengths at a given temperature. The expression is given by
 
 $$
 P(T)=\sigma AT^4
 $$
 
-where $A$ is the surface area of a blackbody, $T$ is its temperature (in $K$), and `σ` is the **Stefan-Boltzmann constant**, $\sigma=5.670\times10^{-8}\,W/(m^2K^4)$.
+where $A$ is the surface area of a blackbody, $T$ is its temperature (in $K$), and $σ$ is the **Stefan-Boltzmann constant**, $\sigma=5.670\times10^{-8}\,W/(m^2K^4)$.
 
 The result of classical model for blackbody radiation is known as **Rayleigh-Jeans law**. But it fails to correctly reproduce experimental results for shorter wavelengths though it works for larger, called _UV catastrophe._
 
@@ -45,7 +29,7 @@ From Rayleigh--Jean's distribution assuming energy can take any value in $(0,\i
 
 #### Planck's Law of Blackbody Radiation
 
-Planck introduced idea of discrete energy levels called quanta in Planck's oscillator and that the energy of the oscillator in its `n`-th energy state, it has energy $E=nh\nu$, thus the smallest energy possible to exchange being $\Delta E=h\nu$, where $h=6.626\times10^{-34}\,J\cdot s=4.136\times10^{-15}\,eV\cdot s$, `f` is the frequency of Planck's oscillator. Using this, average energy was found to be
+Planck introduced idea of discrete energy levels called quanta in Planck's oscillator and that the energy of the oscillator in its $n$-th energy state, it has energy $E=nh\nu$, thus the smallest energy possible to exchange being $\Delta E=h\nu$, where $h=6.626\times10^{-34}\,J\cdot s=4.136\times10^{-15}\,eV\cdot s$, $f$ is the frequency of Planck's oscillator. Using this, average energy was found to be
 
 $$
 \bar{E}=\frac{h\nu}{\exp(h\nu/k_BT)-1}
@@ -59,13 +43,13 @@ $$
 \rho(\lambda,T)=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{hc/(\lambda k_BT)}-1}
 $$
 
-where `c` is the speed of light, `kB` is Boltzmann's constant, $k_B=1.381\times10^{-23}\,J/K$. The spectral radiance coming out of blackbody in a particular direction (but same in every direction) is given by
+where $c$ is the speed of light, $kB$ is Boltzmann's constant, $k_B=1.381\times10^{-23}\,J/K$. The spectral radiance coming out of blackbody in a particular direction (but same in every direction) is given by
 
 $$
 I(\lambda,T)=\frac{2hc^2}{\lambda^5}\frac{1}{e^{hc/(\lambda k_BT)}-1}
 $$
 
-where `I` represents spectral radiance.
+where $I$ represents spectral radiance.
 
 $$
 \lim_{\lambda\to\infty}\rho(\lambda,T)=\frac{8\pi kT}{\lambda^4}
@@ -92,7 +76,7 @@ Hertz experiment discovered the photoelectric effect showing that visible light 
 
 #### Classical Electromagnetic Wave Theory
 
-From classical electromagnetism, we know $E_0\propto I$ where `I` is intensity of the light and $E_0$ is the amplitude of the electric field. Thus, electron shall experience a force $f=-eE$ and stronger the intensity of light, more energy electron will gain and thus sufficiently strong or sufficiently long illumination shall provide enough energy for electron to escape. Also, classical theory expects a time delay since at sufficiently low intensity, electron will theoretically accumulate energy to eventually escape. But this is inconsistent with the observations except for that it could predict that photoelectric current shall increase with intensity.
+From classical electromagnetism, we know $E_0\propto I$ where $I$ is intensity of the light and $E_0$ is the amplitude of the electric field. Thus, electron shall experience a force $f=-eE$ and stronger the intensity of light, more energy electron will gain and thus sufficiently strong or sufficiently long illumination shall provide enough energy for electron to escape. Also, classical theory expects a time delay since at sufficiently low intensity, electron will theoretically accumulate energy to eventually escape. But this is inconsistent with the observations except for that it could predict that photoelectric current shall increase with intensity.
 
 #### Einstein's Photon Theory
 
@@ -122,7 +106,7 @@ $$
 L=mvr=\frac{nh}{2\pi}
 $$
 
-where `m` is electron mass, `v` is velocity of electron, `r` is orbital radius, `n` is principal quantum number (the stationary orbits) starting from $n=1$. Also, while electron is in one of the stationary orbits, it emits no radiation (according to postulate) i.e.
+where $m$ is electron mass, $v$ is velocity of electron, $r$ is orbital radius, $n$ is principal quantum number (the stationary orbits) starting from $n=1$. Also, while electron is in one of the stationary orbits, it emits no radiation (according to postulate) i.e.
 
 $$
 \frac{dE}{dt}=0
@@ -134,7 +118,7 @@ $$
 E_n=-\frac{13.6}{n^2}\,eV
 $$
 
-He added that atom emits a photon when an electron moves from a higher energy state to lower energy state such that $\Delta E=hf$ where `f` is frequency of photon. If it absorbs a photon, electron excites from lower energy state to higher energy state.
+He added that atom emits a photon when an electron moves from a higher energy state to lower energy state such that $\Delta E=hf$ where $f$ is frequency of photon. If it absorbs a photon, electron excites from lower energy state to higher energy state.
 
 Further derivations by Bohr used classical mechanics like Coulomb force to determine the orbit and thus this model is seen as a semi-classical model.
 
@@ -152,7 +136,7 @@ $$
 \oint p_i\,dq_i=n_i h
 $$
 
-where $n_i$ is an integer, `q` is coordinate describing position and `p` is momentum corresponding to the coordinate. This is called the _quantization of action_. For circular orbits, this gives $L=n\hbar$ where $\hbar=h/2\pi$. This was introduced since in elliptical orbit, radial motion describes electrons movement towards and away from nucleus whereas angular describes around nucleus thus giving rise to two quantum numbers. For radial action,
+where $n_i$ is an integer, $q$ is coordinate describing position and $p$ is momentum corresponding to the coordinate. This is called the _quantization of action_. For circular orbits, this gives $L=n\hbar$ where $\hbar=h/2\pi$. This was introduced since in elliptical orbit, radial motion describes electrons movement towards and away from nucleus whereas angular describes around nucleus thus giving rise to two quantum numbers. For radial action,
 
 $$
 \oint p_r\,dr=n_r h

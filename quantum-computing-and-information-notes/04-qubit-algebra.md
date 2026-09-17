@@ -140,9 +140,11 @@ For a degenerate eigenvalue, the eigenvalue equation determines an eigenspace ra
 We define
 
 $$
-\hat{\sigma}_+ := \ket{0}\bra{1} \\
-\hat{\sigma}_- := \ket{1}\bra{0} \\
-\hat{\sigma}_z := \ket{0}\bra{0} - \ket{1}\bra{1}
+\begin{aligned}
+\hat{\sigma}_+ &:= \ket{0}\bra{1} \\
+\hat{\sigma}_- &:= \ket{1}\bra{0} \\
+\hat{\sigma}_z &:= \ket{0}\bra{0} - \ket{1}\bra{1}
+\end{aligned}
 $$
 
 and we know that
