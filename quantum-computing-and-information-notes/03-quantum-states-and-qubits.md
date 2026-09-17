@@ -66,23 +66,52 @@ $$
 
 ### Measurement in the Computational Basis
 
-When we measure in the computational basis, there are two possible outcomes, $0$ and $1$. 
+When we measure in the computational basis, there are two possible outcomes, $0$ and $1$.
 
-Using Born's statistical interpretation and since the state is normalized, we have
-
-$$
-P(0) = |\alpha|^2
-$$
-
-and
+We use the two measurement operators
 
 $$
-P(1) = |\beta|^2
+M_0 = \ket{0}\bra{0}, \qquad M_1 = \ket{1}\bra{1}.
 $$
 
-If measurement gives $0$, the post-measurement state is $\ket{0}$ and if it gives $1$, the post-measurement state is $\ket{1}$.
+Suppose the state is
 
-It shall be noted here we use $\ket{0}$ to denote the excited state. 
+$$
+\ket{\psi} = \alpha\ket{0} + \beta\ket{1}.
+$$
+
+According to the measurement postulate, after incorporating Born's statistical interpretation, the probability of obtaining outcome $0$ is
+
+$$
+\begin{aligned}
+p(0)
+&= \bra{\psi}M_0^\dagger M_0\ket{\psi}\\
+&= \bra{\psi}M_0\ket{\psi}\\
+&= |\alpha|^2.
+\end{aligned}
+$$
+
+Similarly,
+
+$$
+p(1)=\bra{\psi}M_1^\dagger M_1\ket{\psi}=|\beta|^2.
+$$
+
+Since the state is normalized,
+
+$$
+|\alpha|^2+|\beta|^2=1,
+$$
+
+and hence
+
+$$
+p(0)+p(1)=1.
+$$
+
+If the measurement outcome is $0$, the post-measurement state is $\ket{0}$, while if the outcome is $1$, the post-measurement state is $\ket{1}$.
+
+In the convention used here, $\ket{0}$ denotes the excited state.
 
 ### Superposition versus Mixture
 
