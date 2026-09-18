@@ -34,7 +34,7 @@ The matrices corresponding to hermitian operators have real eigenvalues.
 
 ::: info Postulate 3 — Poisson bracket
 
-If $\hat{A}$ and $\hat{B}$ are hermitian operators corresponding to classical dynamical variables a and b then the commutator of $\hat{A}$ and $\hat{B}$ is given by_
+If $\hat{A}$ and $\hat{B}$ are hermitian operators corresponding to classical dynamical variables a and b then the commutator of $\hat{A}$ and $\hat{B}$ is given by
 
 $$
 [\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A} = i \hbar \{a, b \}
@@ -60,7 +60,7 @@ $$
 
 ::: info Postulate 4 — Measurement Postulate
 
-Each act of measurement of an observable_ $\hat A$ on a system in state $\ket{\psi}$:
+Each act of measurement of an observable $\hat A$ on a system in state $\ket{\psi}$:
 
 1. Gives one of the eigenvalues $a_i$ of $\hat A$ as the outcome.
 2. When $a_i$ is observed, the system collapses to the eigenstate $\ket{a_i}$ corresponding to the eigenvalue $a_i$.
