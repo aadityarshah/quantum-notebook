@@ -127,7 +127,7 @@ $$
 
 whenever function $f(\hat{A})$ is well-defined.
 
-And if the eigenvectors $\{\lambda_i\}$ form a complete orthonormal eigenbasis, which is the case when $\hat{A}$ is a normal operator, then we get
+And if the eigenvectors $\{\ket{\lambda_i\}}$ form a complete orthonormal eigenbasis, which is guaranteed when $\hat{A}$ is a normal operator (in finite dimensions), then we get
 
 $$
 f(\hat{A}) = \sum_i f(\lambda_i) \ket{\lambda_i} \bra{\lambda_i}
