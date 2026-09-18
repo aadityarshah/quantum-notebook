@@ -35,7 +35,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       {
         text: "Quantum Mechanics",
-        link: "/quantum-mechanics-notes/02-the-birth-of-quantum-mechanics",
+        link: "/quantum-mechanics-notes/01-introduction-to-old-quantum-theory",
       },
       {
         text: "Quantum Computing",
