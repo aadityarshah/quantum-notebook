@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: QIST Notes
-  text: Quantum science, explained from first principles
-  tagline: Personal learning notes on quantum mechanics, quantum computing, and quantum information.
+  name: The Quantum Notebook
+  text: Exploring quantum science and technology
+  tagline: Personal notes on quantum mechanics, computing, materials, devices, and everything in between.
   actions:
     - theme: brand
       text: Start learning

@@ -1,13 +1,13 @@
-# QIST-Notes
+# The Quantum Notebook
 
-This repository contains my learning notes from _PH202 Introduction to Quantum Physics_, _PH643 Quantum Computing and Information_, and (eventually) _MSE318 Quantum Materials and Devices_.
+This repository contains my learning notes on quantum science and technology: quantum mechanics, quantum computing, quantum information, materials, devices, and related topics.
 
-The aim is to build a clear, connected foundation in Quantum Information Science and Technology (QIST).
+The aim is to build a clear, connected understanding of the quantum world and the technologies built around it.
 
 ## Repository Structure
 
 ```text
-qist-notes/
+quantum-notebook/
 ├── .github/workflows/             # PR checks and GitHub Pages deployment
 ├── .githooks/pre-push             # Local checks before pushing
 ├── docs/.vitepress/               # VitePress site configuration

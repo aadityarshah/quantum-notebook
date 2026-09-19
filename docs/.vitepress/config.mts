@@ -23,14 +23,13 @@ function noteItems(directory: string) {
 }
 
 export default defineConfig({
-  title: "QIST Notes",
-  description:
-    "Foundational notes on quantum mechanics, quantum computing, and quantum information science and technology.",
-  base: "/qist-notes/",
+  title: "The Quantum Notebook",
+  description: "A personal notebook exploring quantum science and technology.",
+  base: "/quantum-notebook/",
   cleanUrls: true,
   markdown: { config: (md) => md.use(mathjax3) },
   themeConfig: {
-    siteTitle: "QIST Notes",
+    siteTitle: "The Quantum Notebook",
     nav: [
       { text: "Home", link: "/" },
       {
