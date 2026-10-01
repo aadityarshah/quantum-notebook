@@ -55,7 +55,7 @@ But if number of operations required is $O(\alpha^L)$ ($\alpha > 1$), then it is
 
 #### Factorization problem
 
-_Factorization_ for numbers formed by multiplication of two very large primes is one problem in which best existing classical algorithm requires $exp((64/9)^{1/3} \cdot (L)^{1/3} \cdot (\ln L)^{2/3})$ operations whereas _Shor's algorithm_, a quantum algorithm, can solve the problem in polynomial time , expressed as $O(L^3)$.
+_Factorization_ for numbers formed by multiplication of two very large primes is one problem in which best existing classical algorithm is highly inefficient. For a number $N$ of $L$ digits, the number operations is given by $A exp((64/9)^{1/3} \cdot (L)^{1/3} \cdot (\ln L)^{2/3})$, where $A$ is a constant whereas _Shor's algorithm_, a quantum algorithm, can solve the problem in polynomial time , expressed as $O(L^3)$.
 
 ### Quantum Decoherence
 

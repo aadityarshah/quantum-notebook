@@ -335,7 +335,7 @@ $$
 
 ## Evaluating the Time Transformation Operator
 
-From the postulates, we know that time evolution is described by a unitary function $\hat{U}$
+From the postulates, we know that time evolution is described by a unitary function $\hat{U}$ since it preserves normalization.
 
 $$
 \hat{U}(t) = e^{-i\hat{H}t/\hbar}
@@ -356,12 +356,12 @@ $$
 Let us ignore the global phase as it does not affect measurement probabilities. So, we consider
 
 $$
-\hat{R}_{\eta}(\vec{n}) = e^{-i \eta \vec{n}\cdot \hat{\vec{\sigma}}/2}
+\hat{R}_{\vec{n}}(\eta) = e^{-i \eta \vec{n}\cdot \hat{\vec{\sigma}}/2}
 $$
 
 where $\eta/2 = |\vec{a}|t/\hbar$.
 
-Clearly, $\hat{R}_{\eta}(\vec{n})$ is a function of $\vec{n}\cdot \hat{\vec{\sigma}}$.
+Clearly, $\hat{R}_{\vec{n}}(\eta)$ is a function of $\vec{n}\cdot \hat{\vec{\sigma}}$.
 
 Take $f(x) = e^{-i\eta x/2}$. So, we have
 
@@ -378,7 +378,7 @@ $$
 Thus, we get
 
 $$
-\hat{R}_{\eta}(\vec{n}) = \cos \left(\frac{\eta}{2} \right) I - i \sin \left(\frac{\eta}{2} \right) \vec{n}\cdot\hat{\vec{\sigma}}
+\hat{R}_{\vec{n}}(\eta)= \cos \left(\frac{\eta}{2} \right) I - i \sin \left(\frac{\eta}{2} \right) \vec{n}\cdot\hat{\vec{\sigma}}
 $$
 
 This operator physically represents the rotation of the corresponding Bloch vector about the axis $\vec{n}$ by the angle $\eta$, following the right-hand rule.
@@ -386,5 +386,5 @@ This operator physically represents the rotation of the corresponding Bloch vect
 So, we have
 
 $$
-\hat{U} = e^{-iat/\hbar} \hat{R}_{\eta}(\vec{n})
+\hat{U} = e^{-iat/\hbar} \hat{R}_{\vec{n}}(\eta)
 $$
