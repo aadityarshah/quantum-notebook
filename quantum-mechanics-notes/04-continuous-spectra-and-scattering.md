@@ -2,7 +2,7 @@
 
 It is once again brought to the attention that we are currently concerned and dealing only and only with a single non-relativistic particle moving in one spatial dimension.
 
-## Dirac Delta Function (\delta(x))
+## Dirac Delta Function ($\delta(x)$)
 
 The following introduction of Dirac delta function follows Dirac [1].
 
@@ -280,7 +280,13 @@ It could be understood from the example of the delta potential problem in which 
 
 ## Dirac Delta Potential Well
 
-For the Dirac delta potential well, we will have $\alpha < 0$.
+For the Dirac delta potential well, let's consider the Dirac delta potential given by
+
+$$
+V(x) = -\alpha \delta(x)
+$$
+
+where $\alpha > 0$.
 
 Now, consider the regions further from $x = 0$. We will have
 
@@ -341,7 +347,7 @@ $$
 Thus, we obtain a discrete energy eigenvalue
 
 $$
-E = \frac{-m \alpha^2}{2 \hbar^2}
+E = \frac{m \alpha^2}{2 \hbar^2}
 $$
 
 On normalizing the eigenfunctions, we get
