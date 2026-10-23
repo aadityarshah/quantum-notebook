@@ -309,15 +309,15 @@ Let's consider two regions, region I for $x \leq 0$ and region II for $x \geq 0$
 Now, these wavefunctions must satisfy the following boundary conditions along with the finite jump condition obtained earlier in [Dirac Delta Potential](#dirac-delta-potential).
 
 $$
-\psi_I(x) \to 0, x \to -\infty
+\psi_I(x) \to 0 \text{ as } x \to -\infty
 $$
 
 $$
-\psi_{II}(x) \to 0, x \to \infty.
+\psi_{II}(x) \to 0 \text{ as } x \to \infty.
 $$
 
 $$
-\psi_I(0) = \psi_II(0)
+\psi_I(0) = \psi_{II}(0)
 $$
 
 The first two conditions are imposed because if this were not the case, one of the terms will blow up and that would physically mean that probability of finding particle at edge of the universe is infinitely more likely than near the origin which contradicts the fact that the particle does not have the energy to freely exist out there as $E < 0$. The third condition is imposed because of the continuity of the wavefunction. All these conditions could be rigorously derived from the formal mathematical framework of quantum mechanics which we talk about in detail later.
