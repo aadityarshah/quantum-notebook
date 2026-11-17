@@ -203,6 +203,8 @@ $$
 
 This gives us $\phi(t) = e^{-iEt/\hbar}$. Thus, we get $\Psi(x, t) = \psi(x) e^{-iEt/\hbar}$ where $\psi(x)$ are the spatial parts of solutions of the time-independent Schrödinger equation which are known as **stationary states**.
 
+A _stationary state_ is defined to be a quantum state whose measurable physical properties and probability densities do not change with time.
+
 ### Concept of Hamiltonian
 
 Classically, the total energy is called the Hamiltonian

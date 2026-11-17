@@ -606,7 +606,7 @@ $$
 Therefore,
 
 $$
-\boxed{\sigma_{\hat{A}} \sigma_{\hat{B}} \geq \frac{1}{2i} \langle [\hat{A}, \hat{B}] \rangle}
+\boxed{\sigma_{\hat{A}} \sigma_{\hat{B}} \geq \left| \frac{1}{2i} \langle [\hat{A}, \hat{B}] \rangle \right|}
 $$
 
 ### Generalized Ehrenfest Theorem
@@ -817,7 +817,7 @@ $$
 \hat{Q} = \sum_n q_n \hat{P}_n
 $$
 
-where $\hat{P}_n = \ket{e_n} \bra{e_n}$>
+where $\hat{P}_n = \ket{e_n} \bra{e_n}$.
 
 We can also find that any function of a Hermitian operator could be written in temrs of a complete orthonormal eigenbasis $\{\ket{e_n}\}$ of $\hat{Q}$
 
