@@ -487,8 +487,8 @@ Now consider $E > V_0$.
 Now, we impose boundary conditions
 
 $$
-\psi_I(a) = \psi_II(a) \quad,
-\psi_I'(a) = \psi_II`(a)
+\psi_I(a) = \psi_{II}(a) \quad,
+\psi_I'(a) = \psi_{II}`(a)
 $$
 
 Thus, we shall obtain
@@ -507,7 +507,7 @@ where $k_2^2 = 2m(E - V_0)/\hbar^2$.
 
 Now, for the standard problem, since incoming is from the left, outgoing in the other region has to be along +x and thus, we take $D = 0$. Hence, the reflection coefficient is given by $|B/A|^2$ and transmission coefficient is given by $(k_2/k_1)|C/A|^2$ and we have $R + T = 1$.
 
-In case of $E < V_0$, $\psi_II(x)$ will show exponential behavior insstead of oscillatory.
+In case of $E < V_0$, $\psi_{II}(x)$ will show exponential behavior insstead of oscillatory.
 
 ### Rectangular Barrier
 
