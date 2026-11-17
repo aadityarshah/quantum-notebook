@@ -985,7 +985,7 @@ $$
 where
 
 $$
-a_0 = \frac{4\pi\varespilon_0\hbar^2}{m_e e^2}, \quad \rho = \frac{2r}{na_0}
+a_0 = \frac{4\pi\varepsilon_0\hbar^2}{m_e e^2}, \quad \rho = \frac{2r}{na_0}
 $$
 
 $L^{2l+1}_{n-l-1}$ denote a generalized Laguerre polynomial, and $a_0 = 0.529 \times 10^{-10}$ denotes the Bohr radius.
