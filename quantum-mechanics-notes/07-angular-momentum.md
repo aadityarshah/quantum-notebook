@@ -23,7 +23,7 @@ $$
 Therefore, the Cartesian components are
 
 $$
-\hat{L}_x = -i\hbar \left( y \frac{\partial}{\partial z} - z \frac{\partial}{\partial y} \right), \\ \hat{L}_y = -i\hbar \left(z \frac{\partial}{\partial x} - x \frac{\partial}{\partial z} \right), \\ \hat{L}_z = -i\hbar \left(x \frac{\partial}{\partial y} - y \frac{\partial}{\partial x} \right)
+\begin{aligned} \hat{L}_x &= -i\hbar \left( y \frac{\partial}{\partial z} - z \frac{\partial}{\partial y} \right), \\ \hat{L}_y &= -i\hbar \left(z \frac{\partial}{\partial x} - x \frac{\partial}{\partial z} \right), \\ \hat{L}_z &= -i\hbar \left(x \frac{\partial}{\partial y} - y \frac{\partial}{\partial x} \right) \end{aligned}
 $$
 
 ### Fundamental Commutation Relations
@@ -31,7 +31,7 @@ $$
 The Cartesian components of orbital angular momentum are
 
 $$
-\hat{L}_x = \hat{y} \hat{p}_z - \hat{z} \hat{p}_y, \\ \hat{L}_y = \hat{z} \hat{p}_x - \hat{x} \hat{p}_z, \\ \hat{L}_z = \hat{x} \hat{p}_y - \hat{y} \hat{p}_x
+\begin{aligned} \hat{L}_x &= \hat{y} \hat{p}_z - \hat{z} \hat{p}_y, \\ \hat{L}_y &= \hat{z} \hat{p}_x - \hat{x} \hat{p}_z, \\ \hat{L}_z &= \hat{x} \hat{p}_y - \hat{y} \hat{p}_x \end{aligned}
 $$
 
 We know the canonical commutation relations
@@ -51,7 +51,7 @@ These are used to evaluate the commutators between the components off angular mo
 On solving, we obtain the fundamental angular momentum commutation relations
 
 $$
-[\hat{L}_x, \hat{L}_y] = i\hbar \hat{L}_z, \\ [\hat{L}_y, \hat{L}_z] = i\hbar \hat{L}_x, \\ [\hat{L}_z, \hat{L}_x] = i\hbar \hat{L}_y
+\begin{aligned} [\hat{L}_x, \hat{L}_y] &= i\hbar \hat{L}_z, \\ [\hat{L}_y, \hat{L}_z] &= i\hbar \hat{L}_x, \\ [\hat{L}_z, \hat{L}_x] &= i\hbar \hat{L}_y \end{aligned}
 $$
 
 These can be expressed as
@@ -93,7 +93,7 @@ these operators have a common set of eigenstates.
 Let $\ket{\lambda, m}$ denote one such state, satisfying
 
 $$
-\hat{L}^2 \ket{\lambda, m} = \hbar^2 l \ket{\lambda, m}, \\ \hat{L}_z \ket{\lambda, m} = \hbar m \ket{\lambda, m}
+\begin{aligned} \hat{L}^2 \ket{\lambda, m} &= \hbar^2 l \ket{\lambda, m}, \\ \hat{L}_z \ket{\lambda, m} &= \hbar m \ket{\lambda, m} \end{aligned}
 $$
 
 where $\lambda, m$ are dimensionless eigenvalues.
@@ -185,14 +185,13 @@ $$
 We defined the common eigenstates $\ket{\lambda, m}$ such that
 
 $$
-\hat{L}^2 \ket{\lambda, m} = \hbar^2 \lambda \ket{\lambda, m}, \quad \hat{L}_z \ket{l, m} = \hbar m \ket{\lambda, m}
+\begin{aligned} \hat{L}^2 \ket{\lambda, m} &= \hbar^2 \lambda \ket{\lambda, m} \\ \hat{L}_z \ket{l, m} &= \hbar m \ket{\lambda, m} \end{aligned}
 $$
 
 Now, since $\hat{L}^2 = \hat{L}_x^2 + \hat{L}_y^2 + \hat{L}_z^2$ and $\hat{L}_x, \hat{L}_y$ are Hermitian,
 
 $$
-\hbar^2 \lambda = \braket{\lambda, m | \hat{L}^2 | \lambda, m} \\
-\implies \hbar^2 \lambda = {\lVert \hat{L}_x \ket{\lambda, m} \rVert}^2 + {\lVert \hat{L}_y \ket{\lambda, m} \rVert}^2 + \hbar^2 m^2
+\begin{aligned} \hbar^2 \lambda &= \braket{\lambda, m | \hat{L}^2 | \lambda, m} \\ &= {\lVert \hat{L}_x \ket{\lambda, m} \rVert}^2 + {\lVert \hat{L}_y \ket{\lambda, m} \rVert}^2 + \hbar^2 m^2 \end{aligned}
 $$
 
 The squared norms are nonnegative and thus,
@@ -308,13 +307,13 @@ $$
 Choosing the coefficients to be real and nonnegative, we get
 
 $$
-C_+(l, m) = \hbar \sqrt{(l - m)(l + m + 1)}, \\ C_- (l, m) = \hbar \sqrt{(l+m)(l - m + 1)}
+\begin{aligned} C_+(l, m) &= \hbar \sqrt{(l - m)(l + m + 1)}, \\ C_- (l, m) &= \hbar \sqrt{(l+m)(l - m + 1)} \end{aligned}
 $$
 
 Thus, the ladder operator actions are
 
 $$
-\hat{L}_+ \ket{l, m} = \hbar \sqrt{(l - m)(l + m + 1)} \ket{l, m+1}, \\ \hat{L}_- \ket{l, m} = \hbar \sqrt{(l+m)(l - m + 1)} \ket{l, m-1}
+\boxed{ \begin{aligned}\hat{L}_+ \ket{l, m} &= \hbar \sqrt{(l - m)(l + m + 1)} \ket{l, m+1}, \\ \hat{L}_- \ket{l, m} &= \hbar \sqrt{(l+m)(l - m + 1)} \ket{l, m-1} \end{aligned}}
 $$
 
 ### Angular Momentum Operators in Spherical Coordinates
@@ -340,7 +339,7 @@ $$
 Therefore,
 
 $$
-\boxed{\hat{L}_z} = -i\hbar \frac{\partial}{\partial \phi}
+\hat{L}_z = -i\hbar \frac{\partial}{\partial \phi}
 $$
 
 Thus, the angular momentum operator is given by
@@ -372,7 +371,7 @@ $$
 Thus, we have
 
 $$
-\boxed{\hat{L}^2 Y^m_l = \hbar^2 l (l+1) Y^m_l, \\ \hat{L}_z Y^m_l = \hbar m Y^m_l}
+\boxed{\begin{aligned} \hat{L}^2 Y^m_l &= \hbar^2 l (l+1) Y^m_l, \\ \hat{L}_z Y^m_l &= \hbar m Y^m_l \end{aligned}}
 $$
 
 This establishes the connection between the abstract eigenstates $\ket{l, m}$ and spherical harmonics, such that
@@ -410,7 +409,7 @@ $$
 Therefore, $\hat{S}^2$ and $\hat{S}_z$ possess simultaneous eigenstates $\ket{s, m_s}$ satisfying
 
 $$
-\boxed{\hat{S}^2 \ket{s, m_s} = \hbar^2 s(s+1) \ket{s, m_s}, \\ \hat{S}_z \ket{s, m_s} = \hbar m_s \ket{s, m_s}}
+\boxed{\begin{aligned} \hat{S}^2 \ket{s, m_s} &= \hbar^2 s(s+1) \ket{s, m_s}, \\ \hat{S}_z \ket{s, m_s} &= \hbar m_s \ket{s, m_s} \end{aligned}}
 $$
 
 Here,
@@ -466,7 +465,7 @@ $$
 From the eigenvalue equation,
 
 $$
-\hat{S}_z \ket{+} = \frac{\hbar}{2} \ket{+}, \quad \hat{S}_z \ket{-} = -\frac{\hbar}{2} \ket{-}
+\begin{aligned} \hat{S}_z \ket{+} &= \frac{\hbar}{2} \ket{+}, \\ \hat{S}_z \ket{-} &= -\frac{\hbar}{2} \ket{-} \end{aligned}
 $$
 
 Thus,
