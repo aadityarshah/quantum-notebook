@@ -979,7 +979,7 @@ $$
 and the normalized radial wavefunctions
 
 $$
-\boxed{R_{nl}(r) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n(n+l)!} e^{-\rho/2} \rho^l L^{2l+1}_{n-l-1}(\rho)}}
+\boxed{R_{nl}(r) = \sqrt{\left(\frac{2}{na_0}\right)^3 \frac{(n-l-1)!}{2n(n+l)!}} e^{-\rho/2} \rho^l L^{2l+1}_{n-l-1}(\rho)}
 $$
 
 where
