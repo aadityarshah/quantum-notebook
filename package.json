@@ -6,7 +6,7 @@
   "scripts": {
     "sync": "node scripts/sync-docs.mjs",
     "dev": "node scripts/sync-docs.mjs && vitepress dev docs",
-    "build": "node scripts/sync-docs.mjs && vitepress build docs",
+    "build": "NODE_OPTIONS=--max-old-space-size=4096 node scripts/sync-docs.mjs && vitepress build docs",
     "preview": "vitepress preview docs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
