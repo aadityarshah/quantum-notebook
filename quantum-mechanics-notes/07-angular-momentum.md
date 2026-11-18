@@ -426,7 +426,7 @@ $$
 
 Unlike orbital angular momentum, spin can have half-integer quantum numbers.
 
-### Spin-\frac{1}{2} particles
+### Spin-$\frac{1}{2}$ particles
 
 For an electron, the spin quantum number is
 
