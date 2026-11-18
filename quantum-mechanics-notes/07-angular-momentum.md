@@ -392,7 +392,7 @@ Let $\hat{\vec{S}}$ denote the spin angular momentum operator with components $\
 We define
 
 $$
-\hat{S}^2 = \hat{S}_x^2 \+ \hat{S}_y^2 + \hat{S}_z^2
+\hat{S}^2 = \hat{S}_x^2 + \hat{S}_y^2 + \hat{S}_z^2
 $$
 
 The spin operators satisfy
