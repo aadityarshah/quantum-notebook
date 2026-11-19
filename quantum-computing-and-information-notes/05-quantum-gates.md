@@ -710,4 +710,44 @@ $$
 e^{i\alpha a} \ket{a} \equiv \hat{R}_{\vec{e_z}}(\alpha)
 
 $$
+
+## No-Cloning Theorem
+
+Suppose an unknown state $\ket{\psi}$ is given and $\ket{s}$ is a blank state that we want to turn into a copy of $\ket{\psi}$.
+
+Assume there exists a unitary cloning operator $\hat{U}$ such that
+
+$$
+
+\hat{U} \ket{\psi}\ket{s} = \ket{\psi}\ket{\psi}
+
+$$
+
+Since the state is unknown, the same cloning operation must work for any other state $\ket{\phi}$, so
+
+$$
+
+\hat{U}\ket{\phi}\ket{s} = \ket{\phi}\ket{\phi}
+
+$$
+
+On taking the inner product of the two equations and using the fact that $\hat{U}$ is unitary, we have
+
+$$
+
+\boxed{\braket{\phi | \psi} = \braket{\phi | \psi}^2}
+
+$$
+
+So,
+
+$$
+
+\braket{\phi | \psi} = 0 \text{ or } \braket{\phi | \psi} = 1
+
+$$
+
+For the first one to be true, the states need to be orthogonal whereas for the latter, the two must be same states up to physically irrelevant phase. But arbitrary quantum states need not be orthogonal or identical.
+
+Therefore, an arbitrary unknown quantum state cannot be perfectly cloned.
 $$
